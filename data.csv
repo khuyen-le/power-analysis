@@ -1,0 +1,633 @@
+"id","group","expLabels","condition","order","set","gender","age","race","engNative","ole","parentEd","trial_type","trial_index","image1","image2","sound1","sound2","sound","correct","selected_image","response_location","accuracy","firstPres","secondPres","thirdPres"
+"p601","kids","Exp1","Unstructured",1,2,"F",6,"White",NA,"no","phd","test",1,"picture1.jpg","picture8.jpg",NA,NA,"word1.aiff","picture1.jpg","picture8.jpg","right",0,1,6,10
+"p601","kids","Exp1","Unstructured",1,2,"F",6,"White",NA,"no","phd","test",2,"picture6.jpg","picture3.jpg",NA,NA,"word3.aiff","picture3.jpg","picture6.jpg","left",0,3,7,11
+"p601","kids","Exp1","Unstructured",1,2,"F",6,"White",NA,"no","phd","test",3,"picture5.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture4.jpg","right",1,4,8,12
+"p601","kids","Exp1","Unstructured",1,2,"F",6,"White",NA,"no","phd","test",4,"picture3.jpg","picture7.jpg",NA,NA,"word7.aiff","picture7.jpg","picture7.jpg","right",1,3,5,12
+"p601","kids","Exp1","Unstructured",1,2,"F",6,"White",NA,"no","phd","test",5,"picture7.jpg","picture2.jpg",NA,NA,"word2.aiff","picture2.jpg","picture2.jpg","right",1,2,5,9
+"p601","kids","Exp1","Unstructured",1,2,"F",6,"White",NA,"no","phd","test",6,"picture5.jpg","picture1.jpg",NA,NA,"word5.aiff","picture5.jpg","picture1.jpg","right",0,2,8,10
+"p601","kids","Exp1","Unstructured",1,2,"F",6,"White",NA,"no","phd","test",7,"picture8.jpg","picture4.jpg",NA,NA,"word8.aiff","picture8.jpg","picture8.jpg","left",1,4,6,11
+"p601","kids","Exp1","Unstructured",1,2,"F",6,"White",NA,"no","phd","test",8,"picture6.jpg","picture2.jpg",NA,NA,"word6.aiff","picture6.jpg","picture6.jpg","left",1,1,7,9
+"p602","kids","Exp1","Unstructured",2,2,"F",4.369863014,"White",NA,"no","bachelors","test",1,"picture2.jpg","picture5.jpg",NA,NA,"word2.aiff","picture2.jpg","picture2.jpg","left",1,1,5,10
+"p602","kids","Exp1","Unstructured",2,2,"F",4.369863014,"White",NA,"no","bachelors","test",2,"picture6.jpg","picture7.jpg",NA,NA,"word7.aiff","picture7.jpg","picture7.jpg","right",1,3,5,9
+"p602","kids","Exp1","Unstructured",2,2,"F",4.369863014,"White",NA,"no","bachelors","test",3,"picture5.jpg","picture3.jpg",NA,NA,"word5.aiff","picture5.jpg","picture3.jpg","right",0,2,6,10
+"p602","kids","Exp1","Unstructured",2,2,"F",4.369863014,"White",NA,"no","bachelors","test",4,"picture8.jpg","picture2.jpg",NA,NA,"word8.aiff","picture8.jpg","picture8.jpg","left",1,1,8,12
+"p602","kids","Exp1","Unstructured",2,2,"F",4.369863014,"White",NA,"no","bachelors","test",5,"picture8.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture4.jpg","right",1,2,8,11
+"p602","kids","Exp1","Unstructured",2,2,"F",4.369863014,"White",NA,"no","bachelors","test",6,"picture4.jpg","picture3.jpg",NA,NA,"word3.aiff","picture3.jpg","picture3.jpg","right",1,4,6,11
+"p602","kids","Exp1","Unstructured",2,2,"F",4.369863014,"White",NA,"no","bachelors","test",7,"picture1.jpg","picture7.jpg",NA,NA,"word1.aiff","picture1.jpg","picture1.jpg","left",1,3,7,12
+"p602","kids","Exp1","Unstructured",2,2,"F",4.369863014,"White",NA,"no","bachelors","test",8,"picture1.jpg","picture6.jpg",NA,NA,"word6.aiff","picture6.jpg","picture6.jpg","right",1,4,7,9
+"p603","kids","Exp1","Unstructured",2,1,"M",5.493150685,"Asian",NA,"no","phd","test",1,"picture1.jpg","picture7.jpg",NA,NA,"word1.aiff","picture1.jpg","picture1.jpg","left",1,3,7,12
+"p603","kids","Exp1","Unstructured",2,1,"M",5.493150685,"Asian",NA,"no","phd","test",2,"picture1.jpg","picture6.jpg",NA,NA,"word6.aiff","picture6.jpg","picture6.jpg","right",1,4,7,9
+"p603","kids","Exp1","Unstructured",2,1,"M",5.493150685,"Asian",NA,"no","phd","test",3,"picture8.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture8.jpg","left",0,2,8,11
+"p603","kids","Exp1","Unstructured",2,1,"M",5.493150685,"Asian",NA,"no","phd","test",4,"picture6.jpg","picture7.jpg",NA,NA,"word7.aiff","picture7.jpg","picture7.jpg","right",1,3,5,9
+"p603","kids","Exp1","Unstructured",2,1,"M",5.493150685,"Asian",NA,"no","phd","test",5,"picture8.jpg","picture2.jpg",NA,NA,"word8.aiff","picture8.jpg","picture2.jpg","right",0,1,8,12
+"p603","kids","Exp1","Unstructured",2,1,"M",5.493150685,"Asian",NA,"no","phd","test",6,"picture2.jpg","picture5.jpg",NA,NA,"word2.aiff","picture2.jpg","picture5.jpg","right",0,1,5,10
+"p603","kids","Exp1","Unstructured",2,1,"M",5.493150685,"Asian",NA,"no","phd","test",7,"picture5.jpg","picture3.jpg",NA,NA,"word5.aiff","picture5.jpg","picture5.jpg","left",1,2,6,10
+"p603","kids","Exp1","Unstructured",2,1,"M",5.493150685,"Asian",NA,"no","phd","test",8,"picture4.jpg","picture3.jpg",NA,NA,"word3.aiff","picture3.jpg","picture3.jpg","right",1,4,6,11
+"p604","kids","Exp1","Unstructured",1,1,"M",6.410958904,"Hispanic or Latino",NA,"yes","bachelors","test",1,"picture8.jpg","picture4.jpg",NA,NA,"word8.aiff","picture8.jpg","picture4.jpg","right",0,4,6,11
+"p604","kids","Exp1","Unstructured",1,1,"M",6.410958904,"Hispanic or Latino",NA,"yes","bachelors","test",2,"picture1.jpg","picture8.jpg",NA,NA,"word1.aiff","picture1.jpg","picture8.jpg","right",0,1,6,10
+"p604","kids","Exp1","Unstructured",1,1,"M",6.410958904,"Hispanic or Latino",NA,"yes","bachelors","test",3,"picture5.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture5.jpg","left",0,4,8,12
+"p604","kids","Exp1","Unstructured",1,1,"M",6.410958904,"Hispanic or Latino",NA,"yes","bachelors","test",4,"picture6.jpg","picture2.jpg",NA,NA,"word6.aiff","picture6.jpg","picture2.jpg","right",0,1,7,9
+"p604","kids","Exp1","Unstructured",1,1,"M",6.410958904,"Hispanic or Latino",NA,"yes","bachelors","test",5,"picture7.jpg","picture2.jpg",NA,NA,"word2.aiff","picture2.jpg","picture7.jpg","left",0,2,5,9
+"p604","kids","Exp1","Unstructured",1,1,"M",6.410958904,"Hispanic or Latino",NA,"yes","bachelors","test",6,"picture5.jpg","picture1.jpg",NA,NA,"word5.aiff","picture5.jpg","picture5.jpg","left",1,2,8,10
+"p604","kids","Exp1","Unstructured",1,1,"M",6.410958904,"Hispanic or Latino",NA,"yes","bachelors","test",7,"picture6.jpg","picture3.jpg",NA,NA,"word3.aiff","picture3.jpg","picture6.jpg","left",0,3,7,11
+"p604","kids","Exp1","Unstructured",1,1,"M",6.410958904,"Hispanic or Latino",NA,"yes","bachelors","test",8,"picture3.jpg","picture7.jpg",NA,NA,"word7.aiff","picture7.jpg","picture7.jpg","right",1,3,5,12
+"p605","kids","Exp1","Unstructured",1,2,"M",5.260273973,"White",NA,"no","somecollege","test",1,"picture7.jpg","picture2.jpg",NA,NA,"word2.aiff","picture2.jpg","picture2.jpg","right",1,2,5,9
+"p605","kids","Exp1","Unstructured",1,2,"M",5.260273973,"White",NA,"no","somecollege","test",2,"picture6.jpg","picture3.jpg",NA,NA,"word3.aiff","picture3.jpg","picture6.jpg","left",0,3,7,11
+"p605","kids","Exp1","Unstructured",1,2,"M",5.260273973,"White",NA,"no","somecollege","test",3,"picture3.jpg","picture7.jpg",NA,NA,"word7.aiff","picture7.jpg","picture7.jpg","right",1,3,5,12
+"p605","kids","Exp1","Unstructured",1,2,"M",5.260273973,"White",NA,"no","somecollege","test",4,"picture6.jpg","picture2.jpg",NA,NA,"word6.aiff","picture6.jpg","picture6.jpg","left",1,1,7,9
+"p605","kids","Exp1","Unstructured",1,2,"M",5.260273973,"White",NA,"no","somecollege","test",5,"picture1.jpg","picture8.jpg",NA,NA,"word1.aiff","picture1.jpg","picture1.jpg","left",1,1,6,10
+"p605","kids","Exp1","Unstructured",1,2,"M",5.260273973,"White",NA,"no","somecollege","test",6,"picture5.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture5.jpg","left",0,4,8,12
+"p605","kids","Exp1","Unstructured",1,2,"M",5.260273973,"White",NA,"no","somecollege","test",7,"picture8.jpg","picture4.jpg",NA,NA,"word8.aiff","picture8.jpg","picture4.jpg","right",0,4,6,11
+"p605","kids","Exp1","Unstructured",1,2,"M",5.260273973,"White",NA,"no","somecollege","test",8,"picture5.jpg","picture1.jpg",NA,NA,"word5.aiff","picture5.jpg","picture5.jpg","left",1,2,8,10
+"p606","kids","Exp1","Unstructured",2,2,"M",6.920547945,"White",NA,"no","masters","test",1,"picture2.jpg","picture5.jpg",NA,NA,"word2.aiff","picture2.jpg","picture2.jpg","left",1,1,5,10
+"p606","kids","Exp1","Unstructured",2,2,"M",6.920547945,"White",NA,"no","masters","test",2,"picture1.jpg","picture6.jpg",NA,NA,"word6.aiff","picture6.jpg","picture1.jpg","left",0,4,7,9
+"p606","kids","Exp1","Unstructured",2,2,"M",6.920547945,"White",NA,"no","masters","test",3,"picture6.jpg","picture7.jpg",NA,NA,"word7.aiff","picture7.jpg","picture7.jpg","right",1,3,5,9
+"p606","kids","Exp1","Unstructured",2,2,"M",6.920547945,"White",NA,"no","masters","test",4,"picture8.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture4.jpg","right",1,2,8,11
+"p606","kids","Exp1","Unstructured",2,2,"M",6.920547945,"White",NA,"no","masters","test",5,"picture4.jpg","picture3.jpg",NA,NA,"word3.aiff","picture3.jpg","picture3.jpg","right",1,4,6,11
+"p606","kids","Exp1","Unstructured",2,2,"M",6.920547945,"White",NA,"no","masters","test",6,"picture8.jpg","picture2.jpg",NA,NA,"word8.aiff","picture8.jpg","picture8.jpg","left",1,1,8,12
+"p606","kids","Exp1","Unstructured",2,2,"M",6.920547945,"White",NA,"no","masters","test",7,"picture5.jpg","picture3.jpg",NA,NA,"word5.aiff","picture5.jpg","picture5.jpg","left",1,2,6,10
+"p606","kids","Exp1","Unstructured",2,2,"M",6.920547945,"White",NA,"no","masters","test",8,"picture1.jpg","picture7.jpg",NA,NA,"word1.aiff","picture1.jpg","picture1.jpg","left",1,3,7,12
+"p607","kids","Exp1","Unstructured",2,1,"F",4,"Multi",NA,"yes",NA,"test",1,"picture8.jpg","picture2.jpg",NA,NA,"word8.aiff","picture8.jpg","picture2.jpg","right",0,1,8,12
+"p607","kids","Exp1","Unstructured",2,1,"F",4,"Multi",NA,"yes",NA,"test",2,"picture4.jpg","picture3.jpg",NA,NA,"word3.aiff","picture3.jpg","picture4.jpg","left",0,4,6,11
+"p607","kids","Exp1","Unstructured",2,1,"F",4,"Multi",NA,"yes",NA,"test",3,"picture8.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture8.jpg","left",0,2,8,11
+"p607","kids","Exp1","Unstructured",2,1,"F",4,"Multi",NA,"yes",NA,"test",4,"picture2.jpg","picture5.jpg",NA,NA,"word2.aiff","picture2.jpg","picture2.jpg","left",1,1,5,10
+"p607","kids","Exp1","Unstructured",2,1,"F",4,"Multi",NA,"yes",NA,"test",5,"picture1.jpg","picture6.jpg",NA,NA,"word6.aiff","picture6.jpg","picture6.jpg","right",1,4,7,9
+"p607","kids","Exp1","Unstructured",2,1,"F",4,"Multi",NA,"yes",NA,"test",6,"picture1.jpg","picture7.jpg",NA,NA,"word1.aiff","picture1.jpg","picture1.jpg","left",1,3,7,12
+"p607","kids","Exp1","Unstructured",2,1,"F",4,"Multi",NA,"yes",NA,"test",7,"picture6.jpg","picture7.jpg",NA,NA,"word7.aiff","picture7.jpg","picture7.jpg","right",1,3,5,9
+"p607","kids","Exp1","Unstructured",2,1,"F",4,"Multi",NA,"yes",NA,"test",8,"picture5.jpg","picture3.jpg",NA,NA,"word5.aiff","picture5.jpg","picture3.jpg","right",0,2,6,10
+"p609","kids","Exp1","Unstructured",1,1,"F",5,NA,NA,NA,NA,"test",1,"picture6.jpg","picture3.jpg",NA,NA,"word3.aiff","picture3.jpg","picture6.jpg","left",0,3,7,11
+"p609","kids","Exp1","Unstructured",1,1,"F",5,NA,NA,NA,NA,"test",2,"picture3.jpg","picture7.jpg",NA,NA,"word7.aiff","picture7.jpg","picture7.jpg","right",1,3,5,12
+"p609","kids","Exp1","Unstructured",1,1,"F",5,NA,NA,NA,NA,"test",3,"picture5.jpg","picture1.jpg",NA,NA,"word5.aiff","picture5.jpg","picture5.jpg","left",1,2,8,10
+"p609","kids","Exp1","Unstructured",1,1,"F",5,NA,NA,NA,NA,"test",4,"picture8.jpg","picture4.jpg",NA,NA,"word8.aiff","picture8.jpg","picture4.jpg","right",0,4,6,11
+"p609","kids","Exp1","Unstructured",1,1,"F",5,NA,NA,NA,NA,"test",5,"picture6.jpg","picture2.jpg",NA,NA,"word6.aiff","picture6.jpg","picture2.jpg","right",0,1,7,9
+"p609","kids","Exp1","Unstructured",1,1,"F",5,NA,NA,NA,NA,"test",6,"picture5.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture4.jpg","right",1,4,8,12
+"p609","kids","Exp1","Unstructured",1,1,"F",5,NA,NA,NA,NA,"test",7,"picture1.jpg","picture8.jpg",NA,NA,"word1.aiff","picture1.jpg","picture8.jpg","right",0,1,6,10
+"p609","kids","Exp1","Unstructured",1,1,"F",5,NA,NA,NA,NA,"test",8,"picture7.jpg","picture2.jpg",NA,NA,"word2.aiff","picture2.jpg","picture7.jpg","left",0,2,5,9
+"p610","kids","Exp1","Unstructured",1,2,"M",7,"Multi",NA,"no","associates","test",1,"picture7.jpg","picture2.jpg",NA,NA,"word2.aiff","picture2.jpg","picture2.jpg","right",1,2,5,9
+"p610","kids","Exp1","Unstructured",1,2,"M",7,"Multi",NA,"no","associates","test",2,"picture8.jpg","picture4.jpg",NA,NA,"word8.aiff","picture8.jpg","picture8.jpg","left",1,4,6,11
+"p610","kids","Exp1","Unstructured",1,2,"M",7,"Multi",NA,"no","associates","test",3,"picture6.jpg","picture2.jpg",NA,NA,"word6.aiff","picture6.jpg","picture6.jpg","left",1,1,7,9
+"p610","kids","Exp1","Unstructured",1,2,"M",7,"Multi",NA,"no","associates","test",4,"picture6.jpg","picture3.jpg",NA,NA,"word3.aiff","picture3.jpg","picture3.jpg","right",1,3,7,11
+"p610","kids","Exp1","Unstructured",1,2,"M",7,"Multi",NA,"no","associates","test",5,"picture5.jpg","picture1.jpg",NA,NA,"word5.aiff","picture5.jpg","picture1.jpg","right",0,2,8,10
+"p610","kids","Exp1","Unstructured",1,2,"M",7,"Multi",NA,"no","associates","test",6,"picture1.jpg","picture8.jpg",NA,NA,"word1.aiff","picture1.jpg","picture1.jpg","left",1,1,6,10
+"p610","kids","Exp1","Unstructured",1,2,"M",7,"Multi",NA,"no","associates","test",7,"picture3.jpg","picture7.jpg",NA,NA,"word7.aiff","picture7.jpg","picture7.jpg","right",1,3,5,12
+"p610","kids","Exp1","Unstructured",1,2,"M",7,"Multi",NA,"no","associates","test",8,"picture5.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture4.jpg","right",1,4,8,12
+"p611","kids","Exp1","Unstructured",2,1,"M",6.257534247,"White",NA,"no","masters","test",1,"picture8.jpg","picture2.jpg",NA,NA,"word8.aiff","picture8.jpg","picture8.jpg","left",1,1,8,12
+"p611","kids","Exp1","Unstructured",2,1,"M",6.257534247,"White",NA,"no","masters","test",2,"picture1.jpg","picture6.jpg",NA,NA,"word6.aiff","picture6.jpg","picture6.jpg","right",1,4,7,9
+"p611","kids","Exp1","Unstructured",2,1,"M",6.257534247,"White",NA,"no","masters","test",3,"picture1.jpg","picture7.jpg",NA,NA,"word1.aiff","picture1.jpg","picture1.jpg","left",1,3,7,12
+"p611","kids","Exp1","Unstructured",2,1,"M",6.257534247,"White",NA,"no","masters","test",4,"picture5.jpg","picture3.jpg",NA,NA,"word5.aiff","picture5.jpg","picture3.jpg","right",0,2,6,10
+"p611","kids","Exp1","Unstructured",2,1,"M",6.257534247,"White",NA,"no","masters","test",5,"picture4.jpg","picture3.jpg",NA,NA,"word3.aiff","picture3.jpg","picture4.jpg","left",0,4,6,11
+"p611","kids","Exp1","Unstructured",2,1,"M",6.257534247,"White",NA,"no","masters","test",6,"picture2.jpg","picture5.jpg",NA,NA,"word2.aiff","picture2.jpg","picture5.jpg","right",0,1,5,10
+"p611","kids","Exp1","Unstructured",2,1,"M",6.257534247,"White",NA,"no","masters","test",7,"picture8.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture4.jpg","right",1,2,8,11
+"p611","kids","Exp1","Unstructured",2,1,"M",6.257534247,"White",NA,"no","masters","test",8,"picture6.jpg","picture7.jpg",NA,NA,"word7.aiff","picture7.jpg","picture7.jpg","right",1,3,5,9
+"p612","kids","Exp1","Unstructured",2,2,"M",6.498630137,"White",NA,"no","somecollege","test",1,"picture4.jpg","picture3.jpg",NA,NA,"word3.aiff","picture3.jpg","picture3.jpg","right",1,4,6,11
+"p612","kids","Exp1","Unstructured",2,2,"M",6.498630137,"White",NA,"no","somecollege","test",2,"picture8.jpg","picture2.jpg",NA,NA,"word8.aiff","picture8.jpg","picture2.jpg","right",0,1,8,12
+"p612","kids","Exp1","Unstructured",2,2,"M",6.498630137,"White",NA,"no","somecollege","test",3,"picture1.jpg","picture7.jpg",NA,NA,"word1.aiff","picture1.jpg","picture1.jpg","left",1,3,7,12
+"p612","kids","Exp1","Unstructured",2,2,"M",6.498630137,"White",NA,"no","somecollege","test",4,"picture2.jpg","picture5.jpg",NA,NA,"word2.aiff","picture2.jpg","picture5.jpg","right",0,1,5,10
+"p612","kids","Exp1","Unstructured",2,2,"M",6.498630137,"White",NA,"no","somecollege","test",5,"picture5.jpg","picture3.jpg",NA,NA,"word5.aiff","picture5.jpg","picture3.jpg","right",0,2,6,10
+"p612","kids","Exp1","Unstructured",2,2,"M",6.498630137,"White",NA,"no","somecollege","test",6,"picture8.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture8.jpg","left",0,2,8,11
+"p612","kids","Exp1","Unstructured",2,2,"M",6.498630137,"White",NA,"no","somecollege","test",7,"picture6.jpg","picture7.jpg",NA,NA,"word7.aiff","picture7.jpg","picture7.jpg","right",1,3,5,9
+"p612","kids","Exp1","Unstructured",2,2,"M",6.498630137,"White",NA,"no","somecollege","test",8,"picture1.jpg","picture6.jpg",NA,NA,"word6.aiff","picture6.jpg","picture1.jpg","left",0,4,7,9
+"p613","kids","Exp1","Unstructured",1,1,"F",4.142465753,"White",NA,"no","somecollege","test",1,"picture5.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture4.jpg","right",1,4,8,12
+"p613","kids","Exp1","Unstructured",1,1,"F",4.142465753,"White",NA,"no","somecollege","test",2,"picture8.jpg","picture4.jpg",NA,NA,"word8.aiff","picture8.jpg","picture8.jpg","left",1,4,6,11
+"p613","kids","Exp1","Unstructured",1,1,"F",4.142465753,"White",NA,"no","somecollege","test",3,"picture5.jpg","picture1.jpg",NA,NA,"word5.aiff","picture5.jpg","picture1.jpg","right",0,2,8,10
+"p613","kids","Exp1","Unstructured",1,1,"F",4.142465753,"White",NA,"no","somecollege","test",4,"picture6.jpg","picture3.jpg",NA,NA,"word3.aiff","picture3.jpg","picture6.jpg","left",0,3,7,11
+"p613","kids","Exp1","Unstructured",1,1,"F",4.142465753,"White",NA,"no","somecollege","test",5,"picture6.jpg","picture2.jpg",NA,NA,"word6.aiff","picture6.jpg","picture2.jpg","right",0,1,7,9
+"p613","kids","Exp1","Unstructured",1,1,"F",4.142465753,"White",NA,"no","somecollege","test",6,"picture1.jpg","picture8.jpg",NA,NA,"word1.aiff","picture1.jpg","picture1.jpg","left",1,1,6,10
+"p613","kids","Exp1","Unstructured",1,1,"F",4.142465753,"White",NA,"no","somecollege","test",7,"picture7.jpg","picture2.jpg",NA,NA,"word2.aiff","picture2.jpg","picture7.jpg","left",0,2,5,9
+"p613","kids","Exp1","Unstructured",1,1,"F",4.142465753,"White",NA,"no","somecollege","test",8,"picture3.jpg","picture7.jpg",NA,NA,"word7.aiff","picture7.jpg","picture7.jpg","right",1,3,5,12
+"p614","kids","Exp1","Unstructured",1,2,"F",5.290410959,"White",NA,"no","bachelors","test",1,"picture5.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture5.jpg","left",0,4,8,12
+"p614","kids","Exp1","Unstructured",1,2,"F",5.290410959,"White",NA,"no","bachelors","test",2,"picture7.jpg","picture2.jpg",NA,NA,"word2.aiff","picture2.jpg","picture7.jpg","left",0,2,5,9
+"p614","kids","Exp1","Unstructured",1,2,"F",5.290410959,"White",NA,"no","bachelors","test",3,"picture1.jpg","picture8.jpg",NA,NA,"word1.aiff","picture1.jpg","picture1.jpg","left",1,1,6,10
+"p614","kids","Exp1","Unstructured",1,2,"F",5.290410959,"White",NA,"no","bachelors","test",4,"picture6.jpg","picture3.jpg",NA,NA,"word3.aiff","picture3.jpg","picture6.jpg","left",0,3,7,11
+"p614","kids","Exp1","Unstructured",1,2,"F",5.290410959,"White",NA,"no","bachelors","test",5,"picture8.jpg","picture4.jpg",NA,NA,"word8.aiff","picture8.jpg","picture8.jpg","left",1,4,6,11
+"p614","kids","Exp1","Unstructured",1,2,"F",5.290410959,"White",NA,"no","bachelors","test",6,"picture3.jpg","picture7.jpg",NA,NA,"word7.aiff","picture7.jpg","picture3.jpg","left",0,3,5,12
+"p614","kids","Exp1","Unstructured",1,2,"F",5.290410959,"White",NA,"no","bachelors","test",7,"picture6.jpg","picture2.jpg",NA,NA,"word6.aiff","picture6.jpg","picture6.jpg","left",1,1,7,9
+"p614","kids","Exp1","Unstructured",1,2,"F",5.290410959,"White",NA,"no","bachelors","test",8,"picture5.jpg","picture1.jpg",NA,NA,"word5.aiff","picture5.jpg","picture5.jpg","left",1,2,8,10
+"p615","kids","Exp1","Unstructured",2,2,"F",6.994520548,"White",NA,"no","associates","test",1,"picture2.jpg","picture5.jpg",NA,NA,"word2.aiff","picture2.jpg","picture5.jpg","right",0,1,5,10
+"p615","kids","Exp1","Unstructured",2,2,"F",6.994520548,"White",NA,"no","associates","test",2,"picture8.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture4.jpg","right",1,2,8,11
+"p615","kids","Exp1","Unstructured",2,2,"F",6.994520548,"White",NA,"no","associates","test",3,"picture1.jpg","picture7.jpg",NA,NA,"word1.aiff","picture1.jpg","picture7.jpg","right",0,3,7,12
+"p615","kids","Exp1","Unstructured",2,2,"F",6.994520548,"White",NA,"no","associates","test",4,"picture1.jpg","picture6.jpg",NA,NA,"word6.aiff","picture6.jpg","picture6.jpg","right",1,4,7,9
+"p615","kids","Exp1","Unstructured",2,2,"F",6.994520548,"White",NA,"no","associates","test",5,"picture5.jpg","picture3.jpg",NA,NA,"word5.aiff","picture5.jpg","picture3.jpg","right",0,2,6,10
+"p615","kids","Exp1","Unstructured",2,2,"F",6.994520548,"White",NA,"no","associates","test",6,"picture6.jpg","picture7.jpg",NA,NA,"word7.aiff","picture7.jpg","picture6.jpg","left",0,3,5,9
+"p615","kids","Exp1","Unstructured",2,2,"F",6.994520548,"White",NA,"no","associates","test",7,"picture8.jpg","picture2.jpg",NA,NA,"word8.aiff","picture8.jpg","picture8.jpg","left",1,1,8,12
+"p615","kids","Exp1","Unstructured",2,2,"F",6.994520548,"White",NA,"no","associates","test",8,"picture4.jpg","picture3.jpg",NA,NA,"word3.aiff","picture3.jpg","picture3.jpg","right",1,4,6,11
+"p616","kids","Exp1","Unstructured",2,1,"F",5.583561644,"White",NA,"no","phd","test",1,"picture5.jpg","picture3.jpg",NA,NA,"word5.aiff","picture5.jpg","picture5.jpg","left",1,2,6,10
+"p616","kids","Exp1","Unstructured",2,1,"F",5.583561644,"White",NA,"no","phd","test",2,"picture1.jpg","picture7.jpg",NA,NA,"word1.aiff","picture1.jpg","picture1.jpg","left",1,3,7,12
+"p616","kids","Exp1","Unstructured",2,1,"F",5.583561644,"White",NA,"no","phd","test",3,"picture8.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture8.jpg","left",0,2,8,11
+"p616","kids","Exp1","Unstructured",2,1,"F",5.583561644,"White",NA,"no","phd","test",4,"picture8.jpg","picture2.jpg",NA,NA,"word8.aiff","picture8.jpg","picture2.jpg","right",0,1,8,12
+"p616","kids","Exp1","Unstructured",2,1,"F",5.583561644,"White",NA,"no","phd","test",5,"picture2.jpg","picture5.jpg",NA,NA,"word2.aiff","picture2.jpg","picture5.jpg","right",0,1,5,10
+"p616","kids","Exp1","Unstructured",2,1,"F",5.583561644,"White",NA,"no","phd","test",6,"picture1.jpg","picture6.jpg",NA,NA,"word6.aiff","picture6.jpg","picture6.jpg","right",1,4,7,9
+"p616","kids","Exp1","Unstructured",2,1,"F",5.583561644,"White",NA,"no","phd","test",7,"picture4.jpg","picture3.jpg",NA,NA,"word3.aiff","picture3.jpg","picture4.jpg","left",0,4,6,11
+"p616","kids","Exp1","Unstructured",2,1,"F",5.583561644,"White",NA,"no","phd","test",8,"picture6.jpg","picture7.jpg",NA,NA,"word7.aiff","picture7.jpg","picture7.jpg","right",1,3,5,9
+"p618","kids","Exp1","Unstructured",1,2,"M",4,NA,NA,NA,NA,"test",1,"picture8.jpg","picture4.jpg",NA,NA,"word8.aiff","picture8.jpg","picture8.jpg","left",1,4,6,11
+"p618","kids","Exp1","Unstructured",1,2,"M",4,NA,NA,NA,NA,"test",2,"picture5.jpg","picture1.jpg",NA,NA,"word5.aiff","picture5.jpg","picture5.jpg","left",1,2,8,10
+"p618","kids","Exp1","Unstructured",1,2,"M",4,NA,NA,NA,NA,"test",3,"picture6.jpg","picture2.jpg",NA,NA,"word6.aiff","picture6.jpg","picture6.jpg","left",1,1,7,9
+"p618","kids","Exp1","Unstructured",1,2,"M",4,NA,NA,NA,NA,"test",4,"picture5.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture5.jpg","left",0,4,8,12
+"p618","kids","Exp1","Unstructured",1,2,"M",4,NA,NA,NA,NA,"test",5,"picture7.jpg","picture2.jpg",NA,NA,"word2.aiff","picture2.jpg","picture7.jpg","left",0,2,5,9
+"p618","kids","Exp1","Unstructured",1,2,"M",4,NA,NA,NA,NA,"test",6,"picture6.jpg","picture3.jpg",NA,NA,"word3.aiff","picture3.jpg","picture6.jpg","left",0,3,7,11
+"p618","kids","Exp1","Unstructured",1,2,"M",4,NA,NA,NA,NA,"test",7,"picture3.jpg","picture7.jpg",NA,NA,"word7.aiff","picture7.jpg","picture3.jpg","left",0,3,5,12
+"p618","kids","Exp1","Unstructured",1,2,"M",4,NA,NA,NA,NA,"test",8,"picture1.jpg","picture8.jpg",NA,NA,"word1.aiff","picture1.jpg","picture1.jpg","left",1,1,6,10
+"p619","kids","Exp1","Unstructured",2,1,"M",5.824657534,"White",NA,"no","masters","test",1,"picture8.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture4.jpg","right",1,2,8,11
+"p619","kids","Exp1","Unstructured",2,1,"M",5.824657534,"White",NA,"no","masters","test",2,"picture5.jpg","picture3.jpg",NA,NA,"word5.aiff","picture5.jpg","picture3.jpg","right",0,2,6,10
+"p619","kids","Exp1","Unstructured",2,1,"M",5.824657534,"White",NA,"no","masters","test",3,"picture1.jpg","picture7.jpg",NA,NA,"word1.aiff","picture1.jpg","picture1.jpg","left",1,3,7,12
+"p619","kids","Exp1","Unstructured",2,1,"M",5.824657534,"White",NA,"no","masters","test",4,"picture8.jpg","picture2.jpg",NA,NA,"word8.aiff","picture8.jpg","picture2.jpg","right",0,1,8,12
+"p619","kids","Exp1","Unstructured",2,1,"M",5.824657534,"White",NA,"no","masters","test",5,"picture6.jpg","picture7.jpg",NA,NA,"word7.aiff","picture7.jpg","picture6.jpg","left",0,3,5,9
+"p619","kids","Exp1","Unstructured",2,1,"M",5.824657534,"White",NA,"no","masters","test",6,"picture1.jpg","picture6.jpg",NA,NA,"word6.aiff","picture6.jpg","picture1.jpg","left",0,4,7,9
+"p619","kids","Exp1","Unstructured",2,1,"M",5.824657534,"White",NA,"no","masters","test",7,"picture4.jpg","picture3.jpg",NA,NA,"word3.aiff","picture3.jpg","picture4.jpg","left",0,4,6,11
+"p619","kids","Exp1","Unstructured",2,1,"M",5.824657534,"White",NA,"no","masters","test",8,"picture2.jpg","picture5.jpg",NA,NA,"word2.aiff","picture2.jpg","picture5.jpg","right",0,1,5,10
+"p621","kids","Exp1","Unstructured",1,1,"F",4.421917808,"White",NA,"no","bachelors","test",1,"picture3.jpg","picture7.jpg",NA,NA,"word7.aiff","picture7.jpg","picture7.jpg","right",1,3,5,12
+"p621","kids","Exp1","Unstructured",1,1,"F",4.421917808,"White",NA,"no","bachelors","test",2,"picture5.jpg","picture1.jpg",NA,NA,"word5.aiff","picture5.jpg","picture1.jpg","right",0,2,8,10
+"p621","kids","Exp1","Unstructured",1,1,"F",4.421917808,"White",NA,"no","bachelors","test",3,"picture5.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture4.jpg","right",1,4,8,12
+"p621","kids","Exp1","Unstructured",1,1,"F",4.421917808,"White",NA,"no","bachelors","test",4,"picture8.jpg","picture4.jpg",NA,NA,"word8.aiff","picture8.jpg","picture8.jpg","left",1,4,6,11
+"p621","kids","Exp1","Unstructured",1,1,"F",4.421917808,"White",NA,"no","bachelors","test",5,"picture6.jpg","picture3.jpg",NA,NA,"word3.aiff","picture3.jpg","picture3.jpg","right",1,3,7,11
+"p621","kids","Exp1","Unstructured",1,1,"F",4.421917808,"White",NA,"no","bachelors","test",6,"picture7.jpg","picture2.jpg",NA,NA,"word2.aiff","picture2.jpg","picture2.jpg","right",1,2,5,9
+"p621","kids","Exp1","Unstructured",1,1,"F",4.421917808,"White",NA,"no","bachelors","test",7,"picture6.jpg","picture2.jpg",NA,NA,"word6.aiff","picture6.jpg","picture6.jpg","left",1,1,7,9
+"p621","kids","Exp1","Unstructured",1,1,"F",4.421917808,"White",NA,"no","bachelors","test",8,"picture1.jpg","picture8.jpg",NA,NA,"word1.aiff","picture1.jpg","picture1.jpg","left",1,1,6,10
+"p622","kids","Exp1","Unstructured",1,2,"F",5.643835616,"White",NA,"no","bachelors","test",1,"picture7.jpg","picture2.jpg",NA,NA,"word2.aiff","picture2.jpg","picture2.jpg","right",1,2,5,9
+"p622","kids","Exp1","Unstructured",1,2,"F",5.643835616,"White",NA,"no","bachelors","test",2,"picture1.jpg","picture8.jpg",NA,NA,"word1.aiff","picture1.jpg","picture8.jpg","right",0,1,6,10
+"p622","kids","Exp1","Unstructured",1,2,"F",5.643835616,"White",NA,"no","bachelors","test",3,"picture3.jpg","picture7.jpg",NA,NA,"word7.aiff","picture7.jpg","picture7.jpg","right",1,3,5,12
+"p622","kids","Exp1","Unstructured",1,2,"F",5.643835616,"White",NA,"no","bachelors","test",4,"picture6.jpg","picture3.jpg",NA,NA,"word3.aiff","picture3.jpg","picture6.jpg","left",0,3,7,11
+"p622","kids","Exp1","Unstructured",1,2,"F",5.643835616,"White",NA,"no","bachelors","test",5,"picture5.jpg","picture1.jpg",NA,NA,"word5.aiff","picture5.jpg","picture5.jpg","left",1,2,8,10
+"p622","kids","Exp1","Unstructured",1,2,"F",5.643835616,"White",NA,"no","bachelors","test",6,"picture5.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture4.jpg","right",1,4,8,12
+"p622","kids","Exp1","Unstructured",1,2,"F",5.643835616,"White",NA,"no","bachelors","test",7,"picture8.jpg","picture4.jpg",NA,NA,"word8.aiff","picture8.jpg","picture8.jpg","left",1,4,6,11
+"p622","kids","Exp1","Unstructured",1,2,"F",5.643835616,"White",NA,"no","bachelors","test",8,"picture6.jpg","picture2.jpg",NA,NA,"word6.aiff","picture6.jpg","picture2.jpg","right",0,1,7,9
+"p623","kids","Exp1","Unstructured",2,1,"M",5.969863014,"White",NA,"no","bachelors","test",1,"picture2.jpg","picture5.jpg",NA,NA,"word2.aiff","picture2.jpg","picture2.jpg","left",1,1,5,10
+"p623","kids","Exp1","Unstructured",2,1,"M",5.969863014,"White",NA,"no","bachelors","test",2,"picture1.jpg","picture6.jpg",NA,NA,"word6.aiff","picture6.jpg","picture6.jpg","right",1,4,7,9
+"p623","kids","Exp1","Unstructured",2,1,"M",5.969863014,"White",NA,"no","bachelors","test",3,"picture6.jpg","picture7.jpg",NA,NA,"word7.aiff","picture7.jpg","picture7.jpg","right",1,3,5,9
+"p623","kids","Exp1","Unstructured",2,1,"M",5.969863014,"White",NA,"no","bachelors","test",4,"picture8.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture4.jpg","right",1,2,8,11
+"p623","kids","Exp1","Unstructured",2,1,"M",5.969863014,"White",NA,"no","bachelors","test",5,"picture8.jpg","picture2.jpg",NA,NA,"word8.aiff","picture8.jpg","picture8.jpg","left",1,1,8,12
+"p623","kids","Exp1","Unstructured",2,1,"M",5.969863014,"White",NA,"no","bachelors","test",6,"picture1.jpg","picture7.jpg",NA,NA,"word1.aiff","picture1.jpg","picture7.jpg","right",0,3,7,12
+"p623","kids","Exp1","Unstructured",2,1,"M",5.969863014,"White",NA,"no","bachelors","test",7,"picture4.jpg","picture3.jpg",NA,NA,"word3.aiff","picture3.jpg","picture3.jpg","right",1,4,6,11
+"p623","kids","Exp1","Unstructured",2,1,"M",5.969863014,"White",NA,"no","bachelors","test",8,"picture5.jpg","picture3.jpg",NA,NA,"word5.aiff","picture5.jpg","picture5.jpg","left",1,2,6,10
+"p624","kids","Exp1","Unstructured",2,2,"F",5.695890411,"Multi",NA,"no","somecollege","test",1,"picture2.jpg","picture5.jpg",NA,NA,"word2.aiff","picture2.jpg","picture2.jpg","left",1,1,5,10
+"p624","kids","Exp1","Unstructured",2,2,"F",5.695890411,"Multi",NA,"no","somecollege","test",2,"picture1.jpg","picture6.jpg",NA,NA,"word6.aiff","picture6.jpg","picture1.jpg","left",0,4,7,9
+"p624","kids","Exp1","Unstructured",2,2,"F",5.695890411,"Multi",NA,"no","somecollege","test",3,"picture4.jpg","picture3.jpg",NA,NA,"word3.aiff","picture3.jpg","picture4.jpg","left",0,4,6,11
+"p624","kids","Exp1","Unstructured",2,2,"F",5.695890411,"Multi",NA,"no","somecollege","test",4,"picture6.jpg","picture7.jpg",NA,NA,"word7.aiff","picture7.jpg","picture6.jpg","left",0,3,5,9
+"p624","kids","Exp1","Unstructured",2,2,"F",5.695890411,"Multi",NA,"no","somecollege","test",5,"picture1.jpg","picture7.jpg",NA,NA,"word1.aiff","picture1.jpg","picture7.jpg","right",0,3,7,12
+"p624","kids","Exp1","Unstructured",2,2,"F",5.695890411,"Multi",NA,"no","somecollege","test",6,"picture5.jpg","picture3.jpg",NA,NA,"word5.aiff","picture5.jpg","picture5.jpg","left",1,2,6,10
+"p624","kids","Exp1","Unstructured",2,2,"F",5.695890411,"Multi",NA,"no","somecollege","test",7,"picture8.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture8.jpg","left",0,2,8,11
+"p624","kids","Exp1","Unstructured",2,2,"F",5.695890411,"Multi",NA,"no","somecollege","test",8,"picture8.jpg","picture2.jpg",NA,NA,"word8.aiff","picture8.jpg","picture2.jpg","right",0,1,8,12
+"p625","kids","Exp1","Unstructured",1,1,"F",6.78630137,"White",NA,"no","bachelors","test",1,"picture5.jpg","picture1.jpg",NA,NA,"word5.aiff","picture5.jpg","picture1.jpg","right",0,2,8,10
+"p625","kids","Exp1","Unstructured",1,1,"F",6.78630137,"White",NA,"no","bachelors","test",2,"picture7.jpg","picture2.jpg",NA,NA,"word2.aiff","picture2.jpg","picture2.jpg","right",1,2,5,9
+"p625","kids","Exp1","Unstructured",1,1,"F",6.78630137,"White",NA,"no","bachelors","test",3,"picture6.jpg","picture2.jpg",NA,NA,"word6.aiff","picture6.jpg","picture6.jpg","left",1,1,7,9
+"p625","kids","Exp1","Unstructured",1,1,"F",6.78630137,"White",NA,"no","bachelors","test",4,"picture8.jpg","picture4.jpg",NA,NA,"word8.aiff","picture8.jpg","picture4.jpg","right",0,4,6,11
+"p625","kids","Exp1","Unstructured",1,1,"F",6.78630137,"White",NA,"no","bachelors","test",5,"picture3.jpg","picture7.jpg",NA,NA,"word7.aiff","picture7.jpg","picture3.jpg","left",0,3,5,12
+"p625","kids","Exp1","Unstructured",1,1,"F",6.78630137,"White",NA,"no","bachelors","test",6,"picture6.jpg","picture3.jpg",NA,NA,"word3.aiff","picture3.jpg","picture3.jpg","right",1,3,7,11
+"p625","kids","Exp1","Unstructured",1,1,"F",6.78630137,"White",NA,"no","bachelors","test",7,"picture5.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture5.jpg","left",0,4,8,12
+"p625","kids","Exp1","Unstructured",1,1,"F",6.78630137,"White",NA,"no","bachelors","test",8,"picture1.jpg","picture8.jpg",NA,NA,"word1.aiff","picture1.jpg","picture8.jpg","right",0,1,6,10
+"p626","kids","Exp1","Unstructured",1,2,"F",4,"White",NA,"no","somecollege","test",1,"picture5.jpg","picture1.jpg",NA,NA,"word5.aiff","picture5.jpg","picture5.jpg","left",1,2,8,10
+"p626","kids","Exp1","Unstructured",1,2,"F",4,"White",NA,"no","somecollege","test",2,"picture7.jpg","picture2.jpg",NA,NA,"word2.aiff","picture2.jpg","picture2.jpg","right",1,2,5,9
+"p626","kids","Exp1","Unstructured",1,2,"F",4,"White",NA,"no","somecollege","test",3,"picture5.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture4.jpg","right",1,4,8,12
+"p626","kids","Exp1","Unstructured",1,2,"F",4,"White",NA,"no","somecollege","test",4,"picture1.jpg","picture8.jpg",NA,NA,"word1.aiff","picture1.jpg","picture8.jpg","right",0,1,6,10
+"p626","kids","Exp1","Unstructured",1,2,"F",4,"White",NA,"no","somecollege","test",5,"picture3.jpg","picture7.jpg",NA,NA,"word7.aiff","picture7.jpg","picture7.jpg","right",1,3,5,12
+"p626","kids","Exp1","Unstructured",1,2,"F",4,"White",NA,"no","somecollege","test",6,"picture6.jpg","picture3.jpg",NA,NA,"word3.aiff","picture3.jpg","picture6.jpg","left",0,3,7,11
+"p626","kids","Exp1","Unstructured",1,2,"F",4,"White",NA,"no","somecollege","test",7,"picture6.jpg","picture2.jpg",NA,NA,"word6.aiff","picture6.jpg","picture2.jpg","right",0,1,7,9
+"p626","kids","Exp1","Unstructured",1,2,"F",4,"White",NA,"no","somecollege","test",8,"picture8.jpg","picture4.jpg",NA,NA,"word8.aiff","picture8.jpg","picture8.jpg","left",1,4,6,11
+"p628","kids","Exp1","Unstructured",2,2,"F",6.287671233,"White",NA,"yes","masters","test",1,"picture2.jpg","picture5.jpg",NA,NA,"word2.aiff","picture2.jpg","picture2.jpg","left",1,1,5,10
+"p628","kids","Exp1","Unstructured",2,2,"F",6.287671233,"White",NA,"yes","masters","test",2,"picture1.jpg","picture6.jpg",NA,NA,"word6.aiff","picture6.jpg","picture6.jpg","right",1,4,7,9
+"p628","kids","Exp1","Unstructured",2,2,"F",6.287671233,"White",NA,"yes","masters","test",3,"picture1.jpg","picture7.jpg",NA,NA,"word1.aiff","picture1.jpg","picture1.jpg","left",1,3,7,12
+"p628","kids","Exp1","Unstructured",2,2,"F",6.287671233,"White",NA,"yes","masters","test",4,"picture5.jpg","picture3.jpg",NA,NA,"word5.aiff","picture5.jpg","picture3.jpg","right",0,2,6,10
+"p628","kids","Exp1","Unstructured",2,2,"F",6.287671233,"White",NA,"yes","masters","test",5,"picture8.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture4.jpg","right",1,2,8,11
+"p628","kids","Exp1","Unstructured",2,2,"F",6.287671233,"White",NA,"yes","masters","test",6,"picture8.jpg","picture2.jpg",NA,NA,"word8.aiff","picture8.jpg","picture2.jpg","right",0,1,8,12
+"p628","kids","Exp1","Unstructured",2,2,"F",6.287671233,"White",NA,"yes","masters","test",7,"picture4.jpg","picture3.jpg",NA,NA,"word3.aiff","picture3.jpg","picture4.jpg","left",0,4,6,11
+"p628","kids","Exp1","Unstructured",2,2,"F",6.287671233,"White",NA,"yes","masters","test",8,"picture6.jpg","picture7.jpg",NA,NA,"word7.aiff","picture7.jpg","picture7.jpg","right",1,3,5,9
+"p629","kids","Exp1","Unstructured",1,1,"F",6.657534247,"White",NA,"no","bachelors","test",1,"picture7.jpg","picture2.jpg",NA,NA,"word2.aiff","picture2.jpg","picture7.jpg","left",0,2,5,9
+"p629","kids","Exp1","Unstructured",1,1,"F",6.657534247,"White",NA,"no","bachelors","test",2,"picture5.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture5.jpg","left",0,4,8,12
+"p629","kids","Exp1","Unstructured",1,1,"F",6.657534247,"White",NA,"no","bachelors","test",3,"picture6.jpg","picture2.jpg",NA,NA,"word6.aiff","picture6.jpg","picture6.jpg","left",1,1,7,9
+"p629","kids","Exp1","Unstructured",1,1,"F",6.657534247,"White",NA,"no","bachelors","test",4,"picture8.jpg","picture4.jpg",NA,NA,"word8.aiff","picture8.jpg","picture8.jpg","left",1,4,6,11
+"p629","kids","Exp1","Unstructured",1,1,"F",6.657534247,"White",NA,"no","bachelors","test",5,"picture1.jpg","picture8.jpg",NA,NA,"word1.aiff","picture1.jpg","picture1.jpg","left",1,1,6,10
+"p629","kids","Exp1","Unstructured",1,1,"F",6.657534247,"White",NA,"no","bachelors","test",6,"picture6.jpg","picture3.jpg",NA,NA,"word3.aiff","picture3.jpg","picture6.jpg","left",0,3,7,11
+"p629","kids","Exp1","Unstructured",1,1,"F",6.657534247,"White",NA,"no","bachelors","test",7,"picture3.jpg","picture7.jpg",NA,NA,"word7.aiff","picture7.jpg","picture3.jpg","left",0,3,5,12
+"p629","kids","Exp1","Unstructured",1,1,"F",6.657534247,"White",NA,"no","bachelors","test",8,"picture5.jpg","picture1.jpg",NA,NA,"word5.aiff","picture5.jpg","picture5.jpg","left",1,2,8,10
+"p631","kids","Exp1","Unstructured",2,1,"F",5.693150685,"White",NA,"no","bachelors","test",1,"picture5.jpg","picture3.jpg",NA,NA,"word5.aiff","picture5.jpg","picture5.jpg","left",1,2,6,10
+"p631","kids","Exp1","Unstructured",2,1,"F",5.693150685,"White",NA,"no","bachelors","test",2,"picture8.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture8.jpg","left",0,2,8,11
+"p631","kids","Exp1","Unstructured",2,1,"F",5.693150685,"White",NA,"no","bachelors","test",3,"picture4.jpg","picture3.jpg",NA,NA,"word3.aiff","picture3.jpg","picture3.jpg","right",1,4,6,11
+"p631","kids","Exp1","Unstructured",2,1,"F",5.693150685,"White",NA,"no","bachelors","test",4,"picture1.jpg","picture7.jpg",NA,NA,"word1.aiff","picture1.jpg","picture1.jpg","left",1,3,7,12
+"p631","kids","Exp1","Unstructured",2,1,"F",5.693150685,"White",NA,"no","bachelors","test",5,"picture2.jpg","picture5.jpg",NA,NA,"word2.aiff","picture2.jpg","picture2.jpg","left",1,1,5,10
+"p631","kids","Exp1","Unstructured",2,1,"F",5.693150685,"White",NA,"no","bachelors","test",6,"picture1.jpg","picture6.jpg",NA,NA,"word6.aiff","picture6.jpg","picture6.jpg","right",1,4,7,9
+"p631","kids","Exp1","Unstructured",2,1,"F",5.693150685,"White",NA,"no","bachelors","test",7,"picture6.jpg","picture7.jpg",NA,NA,"word7.aiff","picture7.jpg","picture7.jpg","right",1,3,5,9
+"p631","kids","Exp1","Unstructured",2,1,"F",5.693150685,"White",NA,"no","bachelors","test",8,"picture8.jpg","picture2.jpg",NA,NA,"word8.aiff","picture8.jpg","picture2.jpg","right",0,1,8,12
+"p633","kids","Exp1","Unstructured",1,1,"F",4.509589041,"White",NA,"no","masters","test",1,"picture6.jpg","picture2.jpg",NA,NA,"word6.aiff","picture6.jpg","picture2.jpg","right",0,1,7,9
+"p633","kids","Exp1","Unstructured",1,1,"F",4.509589041,"White",NA,"no","masters","test",2,"picture6.jpg","picture3.jpg",NA,NA,"word3.aiff","picture3.jpg","picture6.jpg","left",0,3,7,11
+"p633","kids","Exp1","Unstructured",1,1,"F",4.509589041,"White",NA,"no","masters","test",3,"picture8.jpg","picture4.jpg",NA,NA,"word8.aiff","picture8.jpg","picture8.jpg","left",1,4,6,11
+"p633","kids","Exp1","Unstructured",1,1,"F",4.509589041,"White",NA,"no","masters","test",4,"picture5.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture4.jpg","right",1,4,8,12
+"p633","kids","Exp1","Unstructured",1,1,"F",4.509589041,"White",NA,"no","masters","test",5,"picture3.jpg","picture7.jpg",NA,NA,"word7.aiff","picture7.jpg","picture3.jpg","left",0,3,5,12
+"p633","kids","Exp1","Unstructured",1,1,"F",4.509589041,"White",NA,"no","masters","test",6,"picture5.jpg","picture1.jpg",NA,NA,"word5.aiff","picture5.jpg","picture1.jpg","right",0,2,8,10
+"p633","kids","Exp1","Unstructured",1,1,"F",4.509589041,"White",NA,"no","masters","test",7,"picture7.jpg","picture2.jpg",NA,NA,"word2.aiff","picture2.jpg","picture7.jpg","left",0,2,5,9
+"p633","kids","Exp1","Unstructured",1,1,"F",4.509589041,"White",NA,"no","masters","test",8,"picture1.jpg","picture8.jpg",NA,NA,"word1.aiff","picture1.jpg","picture8.jpg","right",0,1,6,10
+"p634","kids","Exp1","Unstructured",1,2,"M",6.046575342,"White",NA,"yes","somehigh","test",1,"picture5.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture5.jpg","left",0,4,8,12
+"p634","kids","Exp1","Unstructured",1,2,"M",6.046575342,"White",NA,"yes","somehigh","test",2,"picture6.jpg","picture2.jpg",NA,NA,"word6.aiff","picture6.jpg","picture2.jpg","right",0,1,7,9
+"p634","kids","Exp1","Unstructured",1,2,"M",6.046575342,"White",NA,"yes","somehigh","test",3,"picture1.jpg","picture8.jpg",NA,NA,"word1.aiff","picture1.jpg","picture8.jpg","right",0,1,6,10
+"p634","kids","Exp1","Unstructured",1,2,"M",6.046575342,"White",NA,"yes","somehigh","test",4,"picture3.jpg","picture7.jpg",NA,NA,"word7.aiff","picture7.jpg","picture7.jpg","right",1,3,5,12
+"p634","kids","Exp1","Unstructured",1,2,"M",6.046575342,"White",NA,"yes","somehigh","test",5,"picture7.jpg","picture2.jpg",NA,NA,"word2.aiff","picture2.jpg","picture2.jpg","right",1,2,5,9
+"p634","kids","Exp1","Unstructured",1,2,"M",6.046575342,"White",NA,"yes","somehigh","test",6,"picture8.jpg","picture4.jpg",NA,NA,"word8.aiff","picture8.jpg","picture8.jpg","left",1,4,6,11
+"p634","kids","Exp1","Unstructured",1,2,"M",6.046575342,"White",NA,"yes","somehigh","test",7,"picture5.jpg","picture1.jpg",NA,NA,"word5.aiff","picture5.jpg","picture1.jpg","right",0,2,8,10
+"p634","kids","Exp1","Unstructured",1,2,"M",6.046575342,"White",NA,"yes","somehigh","test",8,"picture6.jpg","picture3.jpg",NA,NA,"word3.aiff","picture3.jpg","picture6.jpg","left",0,3,7,11
+"p635","kids","Exp1","Unstructured",2,1,"F",7.224657534,"White",NA,"no","bachelors","test",1,"picture8.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture4.jpg","right",1,2,8,11
+"p635","kids","Exp1","Unstructured",2,1,"F",7.224657534,"White",NA,"no","bachelors","test",2,"picture1.jpg","picture7.jpg",NA,NA,"word1.aiff","picture1.jpg","picture1.jpg","left",1,3,7,12
+"p635","kids","Exp1","Unstructured",2,1,"F",7.224657534,"White",NA,"no","bachelors","test",3,"picture1.jpg","picture6.jpg",NA,NA,"word6.aiff","picture6.jpg","picture6.jpg","right",1,4,7,9
+"p635","kids","Exp1","Unstructured",2,1,"F",7.224657534,"White",NA,"no","bachelors","test",4,"picture6.jpg","picture7.jpg",NA,NA,"word7.aiff","picture7.jpg","picture7.jpg","right",1,3,5,9
+"p635","kids","Exp1","Unstructured",2,1,"F",7.224657534,"White",NA,"no","bachelors","test",5,"picture2.jpg","picture5.jpg",NA,NA,"word2.aiff","picture2.jpg","picture5.jpg","right",0,1,5,10
+"p635","kids","Exp1","Unstructured",2,1,"F",7.224657534,"White",NA,"no","bachelors","test",6,"picture8.jpg","picture2.jpg",NA,NA,"word8.aiff","picture8.jpg","picture8.jpg","left",1,1,8,12
+"p635","kids","Exp1","Unstructured",2,1,"F",7.224657534,"White",NA,"no","bachelors","test",7,"picture4.jpg","picture3.jpg",NA,NA,"word3.aiff","picture3.jpg","picture4.jpg","left",0,4,6,11
+"p635","kids","Exp1","Unstructured",2,1,"F",7.224657534,"White",NA,"no","bachelors","test",8,"picture5.jpg","picture3.jpg",NA,NA,"word5.aiff","picture5.jpg","picture3.jpg","right",0,2,6,10
+"p636","kids","Exp1","Unstructured",2,2,"F",5.123287671,"White",NA,"no","bachelors","test",1,"picture8.jpg","picture2.jpg",NA,NA,"word8.aiff","picture8.jpg","picture2.jpg","right",0,1,8,12
+"p636","kids","Exp1","Unstructured",2,2,"F",5.123287671,"White",NA,"no","bachelors","test",2,"picture1.jpg","picture6.jpg",NA,NA,"word6.aiff","picture6.jpg","picture1.jpg","left",0,4,7,9
+"p636","kids","Exp1","Unstructured",2,2,"F",5.123287671,"White",NA,"no","bachelors","test",3,"picture1.jpg","picture7.jpg",NA,NA,"word1.aiff","picture1.jpg","picture7.jpg","right",0,3,7,12
+"p636","kids","Exp1","Unstructured",2,2,"F",5.123287671,"White",NA,"no","bachelors","test",4,"picture8.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture4.jpg","right",1,2,8,11
+"p636","kids","Exp1","Unstructured",2,2,"F",5.123287671,"White",NA,"no","bachelors","test",5,"picture6.jpg","picture7.jpg",NA,NA,"word7.aiff","picture7.jpg","picture6.jpg","left",0,3,5,9
+"p636","kids","Exp1","Unstructured",2,2,"F",5.123287671,"White",NA,"no","bachelors","test",6,"picture2.jpg","picture5.jpg",NA,NA,"word2.aiff","picture2.jpg","picture5.jpg","right",0,1,5,10
+"p636","kids","Exp1","Unstructured",2,2,"F",5.123287671,"White",NA,"no","bachelors","test",7,"picture5.jpg","picture3.jpg",NA,NA,"word5.aiff","picture5.jpg","picture3.jpg","right",0,2,6,10
+"p636","kids","Exp1","Unstructured",2,2,"F",5.123287671,"White",NA,"no","bachelors","test",8,"picture4.jpg","picture3.jpg",NA,NA,"word3.aiff","picture3.jpg","picture4.jpg","left",0,4,6,11
+"p637","kids","Exp1","Unstructured",1,1,"F",5.071232877,"White",NA,"no","bachelors","test",1,"picture5.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture4.jpg","right",1,4,8,12
+"p637","kids","Exp1","Unstructured",1,1,"F",5.071232877,"White",NA,"no","bachelors","test",2,"picture1.jpg","picture8.jpg",NA,NA,"word1.aiff","picture1.jpg","picture1.jpg","left",1,1,6,10
+"p637","kids","Exp1","Unstructured",1,1,"F",5.071232877,"White",NA,"no","bachelors","test",3,"picture8.jpg","picture4.jpg",NA,NA,"word8.aiff","picture8.jpg","picture8.jpg","left",1,4,6,11
+"p637","kids","Exp1","Unstructured",1,1,"F",5.071232877,"White",NA,"no","bachelors","test",4,"picture7.jpg","picture2.jpg",NA,NA,"word2.aiff","picture2.jpg","picture2.jpg","right",1,2,5,9
+"p637","kids","Exp1","Unstructured",1,1,"F",5.071232877,"White",NA,"no","bachelors","test",5,"picture5.jpg","picture1.jpg",NA,NA,"word5.aiff","picture5.jpg","picture1.jpg","right",0,2,8,10
+"p637","kids","Exp1","Unstructured",1,1,"F",5.071232877,"White",NA,"no","bachelors","test",6,"picture6.jpg","picture2.jpg",NA,NA,"word6.aiff","picture6.jpg","picture6.jpg","left",1,1,7,9
+"p637","kids","Exp1","Unstructured",1,1,"F",5.071232877,"White",NA,"no","bachelors","test",7,"picture3.jpg","picture7.jpg",NA,NA,"word7.aiff","picture7.jpg","picture7.jpg","right",1,3,5,12
+"p637","kids","Exp1","Unstructured",1,1,"F",5.071232877,"White",NA,"no","bachelors","test",8,"picture6.jpg","picture3.jpg",NA,NA,"word3.aiff","picture3.jpg","picture3.jpg","right",1,3,7,11
+"p639","kids","Exp1","Unstructured",2,1,"M",7.282191781,"White",NA,"no","masters","test",1,"picture6.jpg","picture7.jpg",NA,NA,"word7.aiff","picture7.jpg","picture7.jpg","right",1,3,5,9
+"p639","kids","Exp1","Unstructured",2,1,"M",7.282191781,"White",NA,"no","masters","test",2,"picture8.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture8.jpg","left",0,2,8,11
+"p639","kids","Exp1","Unstructured",2,1,"M",7.282191781,"White",NA,"no","masters","test",3,"picture2.jpg","picture5.jpg",NA,NA,"word2.aiff","picture2.jpg","picture5.jpg","right",0,1,5,10
+"p639","kids","Exp1","Unstructured",2,1,"M",7.282191781,"White",NA,"no","masters","test",4,"picture4.jpg","picture3.jpg",NA,NA,"word3.aiff","picture3.jpg","picture3.jpg","right",1,4,6,11
+"p639","kids","Exp1","Unstructured",2,1,"M",7.282191781,"White",NA,"no","masters","test",5,"picture1.jpg","picture6.jpg",NA,NA,"word6.aiff","picture6.jpg","picture6.jpg","right",1,4,7,9
+"p639","kids","Exp1","Unstructured",2,1,"M",7.282191781,"White",NA,"no","masters","test",6,"picture1.jpg","picture7.jpg",NA,NA,"word1.aiff","picture1.jpg","picture7.jpg","right",0,3,7,12
+"p639","kids","Exp1","Unstructured",2,1,"M",7.282191781,"White",NA,"no","masters","test",7,"picture8.jpg","picture2.jpg",NA,NA,"word8.aiff","picture8.jpg","picture2.jpg","right",0,1,8,12
+"p639","kids","Exp1","Unstructured",2,1,"M",7.282191781,"White",NA,"no","masters","test",8,"picture5.jpg","picture3.jpg",NA,NA,"word5.aiff","picture5.jpg","picture3.jpg","right",0,2,6,10
+"p641","kids","Exp1","Unstructured",1,1,"M",5.82,"White",NA,"no","bachelors","test",1,"picture5.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture5.jpg","left",0,4,8,12
+"p641","kids","Exp1","Unstructured",1,1,"M",5.82,"White",NA,"no","bachelors","test",2,"picture8.jpg","picture4.jpg",NA,NA,"word8.aiff","picture8.jpg","picture4.jpg","right",0,4,6,11
+"p641","kids","Exp1","Unstructured",1,1,"M",5.82,"White",NA,"no","bachelors","test",3,"picture1.jpg","picture8.jpg",NA,NA,"word1.aiff","picture1.jpg","picture1.jpg","left",1,1,6,10
+"p641","kids","Exp1","Unstructured",1,1,"M",5.82,"White",NA,"no","bachelors","test",4,"picture3.jpg","picture7.jpg",NA,NA,"word7.aiff","picture7.jpg","picture7.jpg","right",1,3,5,12
+"p641","kids","Exp1","Unstructured",1,1,"M",5.82,"White",NA,"no","bachelors","test",5,"picture6.jpg","picture3.jpg",NA,NA,"word3.aiff","picture3.jpg","picture6.jpg","left",0,3,7,11
+"p641","kids","Exp1","Unstructured",1,1,"M",5.82,"White",NA,"no","bachelors","test",6,"picture5.jpg","picture1.jpg",NA,NA,"word5.aiff","picture5.jpg","picture5.jpg","left",1,2,8,10
+"p641","kids","Exp1","Unstructured",1,1,"M",5.82,"White",NA,"no","bachelors","test",7,"picture7.jpg","picture2.jpg",NA,NA,"word2.aiff","picture2.jpg","picture2.jpg","right",1,2,5,9
+"p641","kids","Exp1","Unstructured",1,1,"M",5.82,"White",NA,"no","bachelors","test",8,"picture6.jpg","picture2.jpg",NA,NA,"word6.aiff","picture6.jpg","picture6.jpg","left",1,1,7,9
+"p643","kids","Exp1","Unstructured",1,1,"M",7.79,"White",NA,"no","phd","test",1,"picture7.jpg","picture2.jpg",NA,NA,"word2.aiff","picture2.jpg","picture7.jpg","left",0,2,5,9
+"p643","kids","Exp1","Unstructured",1,1,"M",7.79,"White",NA,"no","phd","test",2,"picture8.jpg","picture4.jpg",NA,NA,"word8.aiff","picture8.jpg","picture8.jpg","left",1,4,6,11
+"p643","kids","Exp1","Unstructured",1,1,"M",7.79,"White",NA,"no","phd","test",3,"picture3.jpg","picture7.jpg",NA,NA,"word7.aiff","picture7.jpg","picture3.jpg","left",0,3,5,12
+"p643","kids","Exp1","Unstructured",1,1,"M",7.79,"White",NA,"no","phd","test",4,"picture5.jpg","picture1.jpg",NA,NA,"word5.aiff","picture5.jpg","picture1.jpg","right",0,2,8,10
+"p643","kids","Exp1","Unstructured",1,1,"M",7.79,"White",NA,"no","phd","test",5,"picture6.jpg","picture3.jpg",NA,NA,"word3.aiff","picture3.jpg","picture3.jpg","right",1,3,7,11
+"p643","kids","Exp1","Unstructured",1,1,"M",7.79,"White",NA,"no","phd","test",6,"picture5.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture5.jpg","left",0,4,8,12
+"p643","kids","Exp1","Unstructured",1,1,"M",7.79,"White",NA,"no","phd","test",7,"picture1.jpg","picture8.jpg",NA,NA,"word1.aiff","picture1.jpg","picture1.jpg","left",1,1,6,10
+"p643","kids","Exp1","Unstructured",1,1,"M",7.79,"White",NA,"no","phd","test",8,"picture6.jpg","picture2.jpg",NA,NA,"word6.aiff","picture6.jpg","picture6.jpg","left",1,1,7,9
+"p7001","kids","Exp2","Massed",2,1,"F",6.347945205,"White",NA,"no","bachelors","test",1,"picture8.jpg","picture5.jpg",NA,NA,"word5.aiff","picture5.jpg","picture5.jpg","right",1,6,8,10
+"p7001","kids","Exp2","Massed",2,1,"F",6.347945205,"White",NA,"no","bachelors","test",2,"picture7.jpg","picture5.jpg",NA,NA,"word7.aiff","picture7.jpg","picture7.jpg","left",1,10,11,12
+"p7001","kids","Exp2","Massed",2,1,"F",6.347945205,"White",NA,"no","bachelors","test",3,"picture6.jpg","picture7.jpg",NA,NA,"word6.aiff","picture6.jpg","picture7.jpg","right",0,7,9,11
+"p7001","kids","Exp2","Massed",2,1,"F",6.347945205,"White",NA,"no","bachelors","test",4,"picture3.jpg","picture1.jpg",NA,NA,"word3.aiff","picture3.jpg","picture1.jpg","right",0,2,3,6
+"p7001","kids","Exp2","Massed",2,1,"F",6.347945205,"White",NA,"no","bachelors","test",5,"picture6.jpg","picture8.jpg",NA,NA,"word8.aiff","picture8.jpg","picture6.jpg","left",0,8,9,12
+"p7001","kids","Exp2","Massed",2,1,"F",6.347945205,"White",NA,"no","bachelors","test",6,"picture2.jpg","picture3.jpg",NA,NA,"word2.aiff","picture2.jpg","picture2.jpg","left",1,1,2,4
+"p7001","kids","Exp2","Massed",2,1,"F",6.347945205,"White",NA,"no","bachelors","test",7,"picture4.jpg","picture1.jpg",NA,NA,"word1.aiff","picture1.jpg","picture4.jpg","left",0,1,3,5
+"p7001","kids","Exp2","Massed",2,1,"F",6.347945205,"White",NA,"no","bachelors","test",8,"picture2.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture2.jpg","left",0,4,5,7
+"p7002","kids","Exp2","Massed",2,2,"F",5.643835616,"Multi",NA,"no","associates","test",1,"picture2.jpg","picture3.jpg",NA,NA,"word2.aiff","picture2.jpg","picture3.jpg","right",0,1,2,4
+"p7002","kids","Exp2","Massed",2,2,"F",5.643835616,"Multi",NA,"no","associates","test",2,"picture3.jpg","picture1.jpg",NA,NA,"word3.aiff","picture3.jpg","picture1.jpg","right",0,2,3,6
+"p7002","kids","Exp2","Massed",2,2,"F",5.643835616,"Multi",NA,"no","associates","test",3,"picture8.jpg","picture5.jpg",NA,NA,"word5.aiff","picture5.jpg","picture5.jpg","right",1,6,8,10
+"p7002","kids","Exp2","Massed",2,2,"F",5.643835616,"Multi",NA,"no","associates","test",4,"picture7.jpg","picture5.jpg",NA,NA,"word7.aiff","picture7.jpg","picture7.jpg","left",1,10,11,12
+"p7002","kids","Exp2","Massed",2,2,"F",5.643835616,"Multi",NA,"no","associates","test",5,"picture6.jpg","picture8.jpg",NA,NA,"word8.aiff","picture8.jpg","picture8.jpg","right",1,8,9,12
+"p7002","kids","Exp2","Massed",2,2,"F",5.643835616,"Multi",NA,"no","associates","test",6,"picture2.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture4.jpg","right",1,4,5,7
+"p7002","kids","Exp2","Massed",2,2,"F",5.643835616,"Multi",NA,"no","associates","test",7,"picture6.jpg","picture7.jpg",NA,NA,"word6.aiff","picture6.jpg","picture6.jpg","left",1,7,9,11
+"p7002","kids","Exp2","Massed",2,2,"F",5.643835616,"Multi",NA,"no","associates","test",8,"picture4.jpg","picture1.jpg",NA,NA,"word1.aiff","picture1.jpg","picture1.jpg","right",1,1,3,5
+"p7005","kids","Exp2","Massed",2,1,"F",5.863013699,"Black or African American",NA,"no","bachelors","test",1,"picture6.jpg","picture8.jpg",NA,NA,"word8.aiff","picture8.jpg","picture6.jpg","left",0,8,9,12
+"p7005","kids","Exp2","Massed",2,1,"F",5.863013699,"Black or African American",NA,"no","bachelors","test",2,"picture7.jpg","picture5.jpg",NA,NA,"word7.aiff","picture7.jpg","picture7.jpg","left",1,10,11,12
+"p7005","kids","Exp2","Massed",2,1,"F",5.863013699,"Black or African American",NA,"no","bachelors","test",3,"picture2.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture4.jpg","right",1,4,5,7
+"p7005","kids","Exp2","Massed",2,1,"F",5.863013699,"Black or African American",NA,"no","bachelors","test",4,"picture3.jpg","picture1.jpg",NA,NA,"word3.aiff","picture3.jpg","picture3.jpg","left",1,2,3,6
+"p7005","kids","Exp2","Massed",2,1,"F",5.863013699,"Black or African American",NA,"no","bachelors","test",5,"picture2.jpg","picture3.jpg",NA,NA,"word2.aiff","picture2.jpg","picture2.jpg","left",1,1,2,4
+"p7005","kids","Exp2","Massed",2,1,"F",5.863013699,"Black or African American",NA,"no","bachelors","test",6,"picture4.jpg","picture1.jpg",NA,NA,"word1.aiff","picture1.jpg","picture4.jpg","left",0,1,3,5
+"p7005","kids","Exp2","Massed",2,1,"F",5.863013699,"Black or African American",NA,"no","bachelors","test",7,"picture6.jpg","picture7.jpg",NA,NA,"word6.aiff","picture6.jpg","picture6.jpg","left",1,7,9,11
+"p7005","kids","Exp2","Massed",2,1,"F",5.863013699,"Black or African American",NA,"no","bachelors","test",8,"picture8.jpg","picture5.jpg",NA,NA,"word5.aiff","picture5.jpg","picture8.jpg","left",0,6,8,10
+"p7006","kids","Exp2","Massed",2,2,"F",5.032876712,"White",NA,"no","associates","test",1,"picture2.jpg","picture3.jpg",NA,NA,"word2.aiff","picture2.jpg","picture3.jpg","right",0,1,2,4
+"p7006","kids","Exp2","Massed",2,2,"F",5.032876712,"White",NA,"no","associates","test",2,"picture3.jpg","picture1.jpg",NA,NA,"word3.aiff","picture3.jpg","picture1.jpg","right",0,2,3,6
+"p7006","kids","Exp2","Massed",2,2,"F",5.032876712,"White",NA,"no","associates","test",3,"picture4.jpg","picture1.jpg",NA,NA,"word1.aiff","picture1.jpg","picture4.jpg","left",0,1,3,5
+"p7006","kids","Exp2","Massed",2,2,"F",5.032876712,"White",NA,"no","associates","test",4,"picture2.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture2.jpg","left",0,4,5,7
+"p7006","kids","Exp2","Massed",2,2,"F",5.032876712,"White",NA,"no","associates","test",5,"picture6.jpg","picture7.jpg",NA,NA,"word6.aiff","picture6.jpg","picture6.jpg","left",1,7,9,11
+"p7006","kids","Exp2","Massed",2,2,"F",5.032876712,"White",NA,"no","associates","test",6,"picture8.jpg","picture5.jpg",NA,NA,"word5.aiff","picture5.jpg","picture5.jpg","right",1,6,8,10
+"p7006","kids","Exp2","Massed",2,2,"F",5.032876712,"White",NA,"no","associates","test",7,"picture6.jpg","picture8.jpg",NA,NA,"word8.aiff","picture8.jpg","picture6.jpg","left",0,8,9,12
+"p7006","kids","Exp2","Massed",2,2,"F",5.032876712,"White",NA,"no","associates","test",8,"picture7.jpg","picture5.jpg",NA,NA,"word7.aiff","picture7.jpg","picture7.jpg","left",1,10,11,12
+"p7018","kids","Exp2","Massed",2,1,"F",4.854794521,"Multi",NA,"no","somecollege","test",1,"picture6.jpg","picture8.jpg",NA,NA,"word8.aiff","picture8.jpg","picture6.jpg","left",0,8,9,12
+"p7018","kids","Exp2","Massed",2,1,"F",4.854794521,"Multi",NA,"no","somecollege","test",2,"picture7.jpg","picture5.jpg",NA,NA,"word7.aiff","picture7.jpg","picture7.jpg","left",1,10,11,12
+"p7018","kids","Exp2","Massed",2,1,"F",4.854794521,"Multi",NA,"no","somecollege","test",3,"picture2.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture2.jpg","left",0,4,5,7
+"p7018","kids","Exp2","Massed",2,1,"F",4.854794521,"Multi",NA,"no","somecollege","test",4,"picture8.jpg","picture5.jpg",NA,NA,"word5.aiff","picture5.jpg","picture5.jpg","right",1,6,8,10
+"p7018","kids","Exp2","Massed",2,1,"F",4.854794521,"Multi",NA,"no","somecollege","test",5,"picture2.jpg","picture3.jpg",NA,NA,"word2.aiff","picture2.jpg","picture2.jpg","left",1,1,2,4
+"p7018","kids","Exp2","Massed",2,1,"F",4.854794521,"Multi",NA,"no","somecollege","test",6,"picture3.jpg","picture1.jpg",NA,NA,"word3.aiff","picture3.jpg","picture1.jpg","right",0,2,3,6
+"p7018","kids","Exp2","Massed",2,1,"F",4.854794521,"Multi",NA,"no","somecollege","test",7,"picture4.jpg","picture1.jpg",NA,NA,"word1.aiff","picture1.jpg","picture4.jpg","left",0,1,3,5
+"p7018","kids","Exp2","Massed",2,1,"F",4.854794521,"Multi",NA,"no","somecollege","test",8,"picture6.jpg","picture7.jpg",NA,NA,"word6.aiff","picture6.jpg","picture7.jpg","right",0,7,9,11
+"p7019","kids","Exp2","Massed",2,2,"F",6.268493151,"Multi",NA,"no","bachelors","test",1,"picture2.jpg","picture3.jpg",NA,NA,"word2.aiff","picture2.jpg","picture2.jpg","left",1,1,2,4
+"p7019","kids","Exp2","Massed",2,2,"F",6.268493151,"Multi",NA,"no","bachelors","test",2,"picture3.jpg","picture1.jpg",NA,NA,"word3.aiff","picture3.jpg","picture3.jpg","left",1,2,3,6
+"p7019","kids","Exp2","Massed",2,2,"F",6.268493151,"Multi",NA,"no","bachelors","test",3,"picture4.jpg","picture1.jpg",NA,NA,"word1.aiff","picture1.jpg","picture4.jpg","left",0,1,3,5
+"p7019","kids","Exp2","Massed",2,2,"F",6.268493151,"Multi",NA,"no","bachelors","test",4,"picture2.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture2.jpg","left",0,4,5,7
+"p7019","kids","Exp2","Massed",2,2,"F",6.268493151,"Multi",NA,"no","bachelors","test",5,"picture6.jpg","picture8.jpg",NA,NA,"word8.aiff","picture8.jpg","picture8.jpg","right",1,8,9,12
+"p7019","kids","Exp2","Massed",2,2,"F",6.268493151,"Multi",NA,"no","bachelors","test",6,"picture7.jpg","picture5.jpg",NA,NA,"word7.aiff","picture7.jpg","picture7.jpg","left",1,10,11,12
+"p7019","kids","Exp2","Massed",2,2,"F",6.268493151,"Multi",NA,"no","bachelors","test",7,"picture8.jpg","picture5.jpg",NA,NA,"word5.aiff","picture5.jpg","picture5.jpg","right",1,6,8,10
+"p7019","kids","Exp2","Massed",2,2,"F",6.268493151,"Multi",NA,"no","bachelors","test",8,"picture6.jpg","picture7.jpg",NA,NA,"word6.aiff","picture6.jpg","picture6.jpg","left",1,7,9,11
+"p7020","kids","Exp2","Massed",2,2,"M",4.495890411,"Multi",NA,"no","bachelors","test",1,"picture8.jpg","picture5.jpg",NA,NA,"word5.aiff","picture5.jpg","picture5.jpg","right",1,6,8,10
+"p7020","kids","Exp2","Massed",2,2,"M",4.495890411,"Multi",NA,"no","bachelors","test",2,"picture3.jpg","picture1.jpg",NA,NA,"word3.aiff","picture3.jpg","picture3.jpg","left",1,2,3,6
+"p7020","kids","Exp2","Massed",2,2,"M",4.495890411,"Multi",NA,"no","bachelors","test",3,"picture6.jpg","picture8.jpg",NA,NA,"word8.aiff","picture8.jpg","picture8.jpg","right",1,8,9,12
+"p7020","kids","Exp2","Massed",2,2,"M",4.495890411,"Multi",NA,"no","bachelors","test",4,"picture2.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture4.jpg","right",1,4,5,7
+"p7020","kids","Exp2","Massed",2,2,"M",4.495890411,"Multi",NA,"no","bachelors","test",5,"picture6.jpg","picture7.jpg",NA,NA,"word6.aiff","picture6.jpg","picture6.jpg","left",1,7,9,11
+"p7020","kids","Exp2","Massed",2,2,"M",4.495890411,"Multi",NA,"no","bachelors","test",6,"picture7.jpg","picture5.jpg",NA,NA,"word7.aiff","picture7.jpg","picture7.jpg","left",1,10,11,12
+"p7020","kids","Exp2","Massed",2,2,"M",4.495890411,"Multi",NA,"no","bachelors","test",7,"picture4.jpg","picture1.jpg",NA,NA,"word1.aiff","picture1.jpg","picture1.jpg","right",1,1,3,5
+"p7020","kids","Exp2","Massed",2,2,"M",4.495890411,"Multi",NA,"no","bachelors","test",8,"picture2.jpg","picture3.jpg",NA,NA,"word2.aiff","picture2.jpg","picture2.jpg","left",1,1,2,4
+"p7021","kids","Exp2","Massed",2,2,"M",6.58630137,"White",NA,"no","masters","test",1,"picture8.jpg","picture5.jpg",NA,NA,"word5.aiff","picture5.jpg","picture5.jpg","right",1,6,8,10
+"p7021","kids","Exp2","Massed",2,2,"M",6.58630137,"White",NA,"no","masters","test",2,"picture2.jpg","picture3.jpg",NA,NA,"word2.aiff","picture2.jpg","picture2.jpg","left",1,1,2,4
+"p7021","kids","Exp2","Massed",2,2,"M",6.58630137,"White",NA,"no","masters","test",3,"picture6.jpg","picture8.jpg",NA,NA,"word8.aiff","picture8.jpg","picture6.jpg","left",0,8,9,12
+"p7021","kids","Exp2","Massed",2,2,"M",6.58630137,"White",NA,"no","masters","test",4,"picture4.jpg","picture1.jpg",NA,NA,"word1.aiff","picture1.jpg","picture1.jpg","right",1,1,3,5
+"p7021","kids","Exp2","Massed",2,2,"M",6.58630137,"White",NA,"no","masters","test",5,"picture2.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture4.jpg","right",1,4,5,7
+"p7021","kids","Exp2","Massed",2,2,"M",6.58630137,"White",NA,"no","masters","test",6,"picture3.jpg","picture1.jpg",NA,NA,"word3.aiff","picture3.jpg","picture3.jpg","left",1,2,3,6
+"p7021","kids","Exp2","Massed",2,2,"M",6.58630137,"White",NA,"no","masters","test",7,"picture7.jpg","picture5.jpg",NA,NA,"word7.aiff","picture7.jpg","picture7.jpg","left",1,10,11,12
+"p7021","kids","Exp2","Massed",2,2,"M",6.58630137,"White",NA,"no","masters","test",8,"picture6.jpg","picture7.jpg",NA,NA,"word6.aiff","picture6.jpg","picture6.jpg","left",1,7,9,11
+"p7022","kids","Exp2","Massed",2,2,"M",7.616438356,"Black or African American",NA,"no","somecollege","test",1,"picture6.jpg","picture7.jpg",NA,NA,"word6.aiff","picture6.jpg","picture6.jpg","left",1,7,9,11
+"p7022","kids","Exp2","Massed",2,2,"M",7.616438356,"Black or African American",NA,"no","somecollege","test",2,"picture8.jpg","picture5.jpg",NA,NA,"word5.aiff","picture5.jpg","picture5.jpg","right",1,6,8,10
+"p7022","kids","Exp2","Massed",2,2,"M",7.616438356,"Black or African American",NA,"no","somecollege","test",3,"picture3.jpg","picture1.jpg",NA,NA,"word3.aiff","picture3.jpg","picture1.jpg","right",0,2,3,6
+"p7022","kids","Exp2","Massed",2,2,"M",7.616438356,"Black or African American",NA,"no","somecollege","test",4,"picture6.jpg","picture8.jpg",NA,NA,"word8.aiff","picture8.jpg","picture6.jpg","left",0,8,9,12
+"p7022","kids","Exp2","Massed",2,2,"M",7.616438356,"Black or African American",NA,"no","somecollege","test",5,"picture4.jpg","picture1.jpg",NA,NA,"word1.aiff","picture1.jpg","picture1.jpg","right",1,1,3,5
+"p7022","kids","Exp2","Massed",2,2,"M",7.616438356,"Black or African American",NA,"no","somecollege","test",6,"picture2.jpg","picture3.jpg",NA,NA,"word2.aiff","picture2.jpg","picture2.jpg","left",1,1,2,4
+"p7022","kids","Exp2","Massed",2,2,"M",7.616438356,"Black or African American",NA,"no","somecollege","test",7,"picture7.jpg","picture5.jpg",NA,NA,"word7.aiff","picture7.jpg","picture5.jpg","right",0,10,11,12
+"p7022","kids","Exp2","Massed",2,2,"M",7.616438356,"Black or African American",NA,"no","somecollege","test",8,"picture2.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture4.jpg","right",1,4,5,7
+"p7024","kids","Exp2","Massed",2,2,"F",5.194520548,"White",NA,"no","bachelors","test",1,"picture3.jpg","picture1.jpg",NA,NA,"word3.aiff","picture3.jpg","picture3.jpg","left",1,2,3,6
+"p7024","kids","Exp2","Massed",2,2,"F",5.194520548,"White",NA,"no","bachelors","test",2,"picture6.jpg","picture8.jpg",NA,NA,"word8.aiff","picture8.jpg","picture8.jpg","right",1,8,9,12
+"p7024","kids","Exp2","Massed",2,2,"F",5.194520548,"White",NA,"no","bachelors","test",3,"picture2.jpg","picture3.jpg",NA,NA,"word2.aiff","picture2.jpg","picture2.jpg","left",1,1,2,4
+"p7024","kids","Exp2","Massed",2,2,"F",5.194520548,"White",NA,"no","bachelors","test",4,"picture8.jpg","picture5.jpg",NA,NA,"word5.aiff","picture5.jpg","picture5.jpg","right",1,6,8,10
+"p7024","kids","Exp2","Massed",2,2,"F",5.194520548,"White",NA,"no","bachelors","test",5,"picture6.jpg","picture7.jpg",NA,NA,"word6.aiff","picture6.jpg","picture6.jpg","left",1,7,9,11
+"p7024","kids","Exp2","Massed",2,2,"F",5.194520548,"White",NA,"no","bachelors","test",6,"picture4.jpg","picture1.jpg",NA,NA,"word1.aiff","picture1.jpg","picture1.jpg","right",1,1,3,5
+"p7024","kids","Exp2","Massed",2,2,"F",5.194520548,"White",NA,"no","bachelors","test",7,"picture7.jpg","picture5.jpg",NA,NA,"word7.aiff","picture7.jpg","picture7.jpg","left",1,10,11,12
+"p7024","kids","Exp2","Massed",2,2,"F",5.194520548,"White",NA,"no","bachelors","test",8,"picture2.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture4.jpg","right",1,4,5,7
+"p7025","kids","Exp2","Massed",2,2,"F",7.452054795,"White",NA,"no","somecollege","test",1,"picture6.jpg","picture8.jpg",NA,NA,"word8.aiff","picture8.jpg","picture6.jpg","left",0,8,9,12
+"p7025","kids","Exp2","Massed",2,2,"F",7.452054795,"White",NA,"no","somecollege","test",2,"picture2.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture4.jpg","right",1,4,5,7
+"p7025","kids","Exp2","Massed",2,2,"F",7.452054795,"White",NA,"no","somecollege","test",3,"picture2.jpg","picture3.jpg",NA,NA,"word2.aiff","picture2.jpg","picture2.jpg","left",1,1,2,4
+"p7025","kids","Exp2","Massed",2,2,"F",7.452054795,"White",NA,"no","somecollege","test",4,"picture7.jpg","picture5.jpg",NA,NA,"word7.aiff","picture7.jpg","picture5.jpg","right",0,10,11,12
+"p7025","kids","Exp2","Massed",2,2,"F",7.452054795,"White",NA,"no","somecollege","test",5,"picture4.jpg","picture1.jpg",NA,NA,"word1.aiff","picture1.jpg","picture1.jpg","right",1,1,3,5
+"p7025","kids","Exp2","Massed",2,2,"F",7.452054795,"White",NA,"no","somecollege","test",6,"picture3.jpg","picture1.jpg",NA,NA,"word3.aiff","picture3.jpg","picture3.jpg","left",1,2,3,6
+"p7025","kids","Exp2","Massed",2,2,"F",7.452054795,"White",NA,"no","somecollege","test",7,"picture8.jpg","picture5.jpg",NA,NA,"word5.aiff","picture5.jpg","picture8.jpg","left",0,6,8,10
+"p7025","kids","Exp2","Massed",2,2,"F",7.452054795,"White",NA,"no","somecollege","test",8,"picture6.jpg","picture7.jpg",NA,NA,"word6.aiff","picture6.jpg","picture7.jpg","right",0,7,9,11
+"p7026","kids","Exp2","Massed",2,2,"F",6.115068493,"White",NA,"no","highschool","test",1,"picture6.jpg","picture8.jpg",NA,NA,"word8.aiff","picture8.jpg","picture8.jpg","right",1,8,9,12
+"p7026","kids","Exp2","Massed",2,2,"F",6.115068493,"White",NA,"no","highschool","test",2,"picture2.jpg","picture3.jpg",NA,NA,"word2.aiff","picture2.jpg","picture2.jpg","left",1,1,2,4
+"p7026","kids","Exp2","Massed",2,2,"F",6.115068493,"White",NA,"no","highschool","test",3,"picture2.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture4.jpg","right",1,4,5,7
+"p7026","kids","Exp2","Massed",2,2,"F",6.115068493,"White",NA,"no","highschool","test",4,"picture7.jpg","picture5.jpg",NA,NA,"word7.aiff","picture7.jpg","picture7.jpg","left",1,10,11,12
+"p7026","kids","Exp2","Massed",2,2,"F",6.115068493,"White",NA,"no","highschool","test",5,"picture6.jpg","picture7.jpg",NA,NA,"word6.aiff","picture6.jpg","picture6.jpg","left",1,7,9,11
+"p7026","kids","Exp2","Massed",2,2,"F",6.115068493,"White",NA,"no","highschool","test",6,"picture3.jpg","picture1.jpg",NA,NA,"word3.aiff","picture3.jpg","picture3.jpg","left",1,2,3,6
+"p7026","kids","Exp2","Massed",2,2,"F",6.115068493,"White",NA,"no","highschool","test",7,"picture8.jpg","picture5.jpg",NA,NA,"word5.aiff","picture5.jpg","picture5.jpg","right",1,6,8,10
+"p7026","kids","Exp2","Massed",2,2,"F",6.115068493,"White",NA,"no","highschool","test",8,"picture4.jpg","picture1.jpg",NA,NA,"word1.aiff","picture1.jpg","picture4.jpg","left",0,1,3,5
+"p7027","kids","Exp2","Massed",2,2,"F",4.071232877,"Multi",NA,"no","highschool","test",1,"picture2.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture2.jpg","left",0,4,5,7
+"p7027","kids","Exp2","Massed",2,2,"F",4.071232877,"Multi",NA,"no","highschool","test",2,"picture8.jpg","picture5.jpg",NA,NA,"word5.aiff","picture5.jpg","picture5.jpg","right",1,6,8,10
+"p7027","kids","Exp2","Massed",2,2,"F",4.071232877,"Multi",NA,"no","highschool","test",3,"picture3.jpg","picture1.jpg",NA,NA,"word3.aiff","picture3.jpg","picture1.jpg","right",0,2,3,6
+"p7027","kids","Exp2","Massed",2,2,"F",4.071232877,"Multi",NA,"no","highschool","test",4,"picture7.jpg","picture5.jpg",NA,NA,"word7.aiff","picture7.jpg","picture5.jpg","right",0,10,11,12
+"p7027","kids","Exp2","Massed",2,2,"F",4.071232877,"Multi",NA,"no","highschool","test",5,"picture6.jpg","picture8.jpg",NA,NA,"word8.aiff","picture8.jpg","picture8.jpg","right",1,8,9,12
+"p7027","kids","Exp2","Massed",2,2,"F",4.071232877,"Multi",NA,"no","highschool","test",6,"picture2.jpg","picture3.jpg",NA,NA,"word2.aiff","picture2.jpg","picture3.jpg","right",0,1,2,4
+"p7027","kids","Exp2","Massed",2,2,"F",4.071232877,"Multi",NA,"no","highschool","test",7,"picture4.jpg","picture1.jpg",NA,NA,"word1.aiff","picture1.jpg","picture1.jpg","right",1,1,3,5
+"p7027","kids","Exp2","Massed",2,2,"F",4.071232877,"Multi",NA,"no","highschool","test",8,"picture6.jpg","picture7.jpg",NA,NA,"word6.aiff","picture6.jpg","picture7.jpg","right",0,7,9,11
+"p7028","kids","Exp2","Massed",2,2,"F",6.482191781,"White",NA,"no","highschool","test",1,"picture6.jpg","picture7.jpg",NA,NA,"word6.aiff","picture6.jpg","picture6.jpg","left",1,7,9,11
+"p7028","kids","Exp2","Massed",2,2,"F",6.482191781,"White",NA,"no","highschool","test",2,"picture6.jpg","picture8.jpg",NA,NA,"word8.aiff","picture8.jpg","picture8.jpg","right",1,8,9,12
+"p7028","kids","Exp2","Massed",2,2,"F",6.482191781,"White",NA,"no","highschool","test",3,"picture2.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture4.jpg","right",1,4,5,7
+"p7028","kids","Exp2","Massed",2,2,"F",6.482191781,"White",NA,"no","highschool","test",4,"picture8.jpg","picture5.jpg",NA,NA,"word5.aiff","picture5.jpg","picture8.jpg","left",0,6,8,10
+"p7028","kids","Exp2","Massed",2,2,"F",6.482191781,"White",NA,"no","highschool","test",5,"picture2.jpg","picture3.jpg",NA,NA,"word2.aiff","picture2.jpg","picture3.jpg","right",0,1,2,4
+"p7028","kids","Exp2","Massed",2,2,"F",6.482191781,"White",NA,"no","highschool","test",6,"picture4.jpg","picture1.jpg",NA,NA,"word1.aiff","picture1.jpg","picture1.jpg","right",1,1,3,5
+"p7028","kids","Exp2","Massed",2,2,"F",6.482191781,"White",NA,"no","highschool","test",7,"picture3.jpg","picture1.jpg",NA,NA,"word3.aiff","picture3.jpg","picture3.jpg","left",1,2,3,6
+"p7028","kids","Exp2","Massed",2,2,"F",6.482191781,"White",NA,"no","highschool","test",8,"picture7.jpg","picture5.jpg",NA,NA,"word7.aiff","picture7.jpg","picture7.jpg","left",1,10,11,12
+"p7031","kids","Exp2","Massed",2,1,"F",4.764383562,"Multi",NA,"no","highschool","test",1,"picture6.jpg","picture8.jpg",NA,NA,"word8.aiff","picture8.jpg","picture8.jpg","right",1,8,9,12
+"p7031","kids","Exp2","Massed",2,1,"F",4.764383562,"Multi",NA,"no","highschool","test",2,"picture8.jpg","picture5.jpg",NA,NA,"word5.aiff","picture5.jpg","picture5.jpg","right",1,6,8,10
+"p7031","kids","Exp2","Massed",2,1,"F",4.764383562,"Multi",NA,"no","highschool","test",3,"picture2.jpg","picture3.jpg",NA,NA,"word2.aiff","picture2.jpg","picture2.jpg","left",1,1,2,4
+"p7031","kids","Exp2","Massed",2,1,"F",4.764383562,"Multi",NA,"no","highschool","test",4,"picture7.jpg","picture5.jpg",NA,NA,"word7.aiff","picture7.jpg","picture5.jpg","right",0,10,11,12
+"p7031","kids","Exp2","Massed",2,1,"F",4.764383562,"Multi",NA,"no","highschool","test",5,"picture6.jpg","picture7.jpg",NA,NA,"word6.aiff","picture6.jpg","picture6.jpg","left",1,7,9,11
+"p7031","kids","Exp2","Massed",2,1,"F",4.764383562,"Multi",NA,"no","highschool","test",6,"picture4.jpg","picture1.jpg",NA,NA,"word1.aiff","picture1.jpg","picture4.jpg","left",0,1,3,5
+"p7031","kids","Exp2","Massed",2,1,"F",4.764383562,"Multi",NA,"no","highschool","test",7,"picture3.jpg","picture1.jpg",NA,NA,"word3.aiff","picture3.jpg","picture3.jpg","left",1,2,3,6
+"p7031","kids","Exp2","Massed",2,1,"F",4.764383562,"Multi",NA,"no","highschool","test",8,"picture2.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture2.jpg","left",0,4,5,7
+"p7032","kids","Exp2","Massed",2,2,"F",4.783561644,"White",NA,"no","associates","test",1,"picture6.jpg","picture8.jpg",NA,NA,"word8.aiff","picture8.jpg","picture8.jpg","right",1,8,9,12
+"p7032","kids","Exp2","Massed",2,2,"F",4.783561644,"White",NA,"no","associates","test",2,"picture4.jpg","picture1.jpg",NA,NA,"word1.aiff","picture1.jpg","picture4.jpg","left",0,1,3,5
+"p7032","kids","Exp2","Massed",2,2,"F",4.783561644,"White",NA,"no","associates","test",3,"picture3.jpg","picture1.jpg",NA,NA,"word3.aiff","picture3.jpg","picture3.jpg","left",1,2,3,6
+"p7032","kids","Exp2","Massed",2,2,"F",4.783561644,"White",NA,"no","associates","test",4,"picture2.jpg","picture3.jpg",NA,NA,"word2.aiff","picture2.jpg","picture2.jpg","left",1,1,2,4
+"p7032","kids","Exp2","Massed",2,2,"F",4.783561644,"White",NA,"no","associates","test",5,"picture8.jpg","picture5.jpg",NA,NA,"word5.aiff","picture5.jpg","picture5.jpg","right",1,6,8,10
+"p7032","kids","Exp2","Massed",2,2,"F",4.783561644,"White",NA,"no","associates","test",6,"picture6.jpg","picture7.jpg",NA,NA,"word6.aiff","picture6.jpg","picture6.jpg","left",1,7,9,11
+"p7032","kids","Exp2","Massed",2,2,"F",4.783561644,"White",NA,"no","associates","test",7,"picture7.jpg","picture5.jpg",NA,NA,"word7.aiff","picture7.jpg","picture7.jpg","left",1,10,11,12
+"p7032","kids","Exp2","Massed",2,2,"F",4.783561644,"White",NA,"no","associates","test",8,"picture2.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture4.jpg","right",1,4,5,7
+"p7035","kids","Exp2","Massed",2,1,"M",4.887671233,"Multi",NA,"no","bachelors","test",1,"picture6.jpg","picture8.jpg",NA,NA,"word8.aiff","picture8.jpg","picture6.jpg","left",0,8,9,12
+"p7035","kids","Exp2","Massed",2,1,"M",4.887671233,"Multi",NA,"no","bachelors","test",2,"picture2.jpg","picture3.jpg",NA,NA,"word2.aiff","picture2.jpg","picture2.jpg","left",1,1,2,4
+"p7035","kids","Exp2","Massed",2,1,"M",4.887671233,"Multi",NA,"no","bachelors","test",3,"picture2.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture4.jpg","right",1,4,5,7
+"p7035","kids","Exp2","Massed",2,1,"M",4.887671233,"Multi",NA,"no","bachelors","test",4,"picture3.jpg","picture1.jpg",NA,NA,"word3.aiff","picture3.jpg","picture3.jpg","left",1,2,3,6
+"p7035","kids","Exp2","Massed",2,1,"M",4.887671233,"Multi",NA,"no","bachelors","test",5,"picture8.jpg","picture5.jpg",NA,NA,"word5.aiff","picture5.jpg","picture8.jpg","left",0,6,8,10
+"p7035","kids","Exp2","Massed",2,1,"M",4.887671233,"Multi",NA,"no","bachelors","test",6,"picture6.jpg","picture7.jpg",NA,NA,"word6.aiff","picture6.jpg","picture6.jpg","left",1,7,9,11
+"p7035","kids","Exp2","Massed",2,1,"M",4.887671233,"Multi",NA,"no","bachelors","test",7,"picture7.jpg","picture5.jpg",NA,NA,"word7.aiff","picture7.jpg","picture5.jpg","right",0,10,11,12
+"p7035","kids","Exp2","Massed",2,1,"M",4.887671233,"Multi",NA,"no","bachelors","test",8,"picture4.jpg","picture1.jpg",NA,NA,"word1.aiff","picture1.jpg","picture1.jpg","right",1,1,3,5
+"p740","kids","Exp2","Massed",2,1,"F",5.219178082,"White",NA,"no","bachelors","test",1,"picture3.jpg","picture1.jpg",NA,NA,"word3.aiff","picture3.jpg","picture1.jpg","right",0,2,3,6
+"p740","kids","Exp2","Massed",2,1,"F",5.219178082,"White",NA,"no","bachelors","test",2,"picture4.jpg","picture1.jpg",NA,NA,"word1.aiff","picture1.jpg","picture4.jpg","left",0,1,3,5
+"p740","kids","Exp2","Massed",2,1,"F",5.219178082,"White",NA,"no","bachelors","test",3,"picture7.jpg","picture5.jpg",NA,NA,"word7.aiff","picture7.jpg","picture5.jpg","right",0,10,11,12
+"p740","kids","Exp2","Massed",2,1,"F",5.219178082,"White",NA,"no","bachelors","test",4,"picture2.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture4.jpg","right",1,4,5,7
+"p740","kids","Exp2","Massed",2,1,"F",5.219178082,"White",NA,"no","bachelors","test",5,"picture6.jpg","picture8.jpg",NA,NA,"word8.aiff","picture8.jpg","picture6.jpg","left",0,8,9,12
+"p740","kids","Exp2","Massed",2,1,"F",5.219178082,"White",NA,"no","bachelors","test",6,"picture8.jpg","picture5.jpg",NA,NA,"word5.aiff","picture5.jpg","picture5.jpg","right",1,6,8,10
+"p740","kids","Exp2","Massed",2,1,"F",5.219178082,"White",NA,"no","bachelors","test",7,"picture2.jpg","picture3.jpg",NA,NA,"word2.aiff","picture2.jpg","picture2.jpg","left",1,1,2,4
+"p740","kids","Exp2","Massed",2,1,"F",5.219178082,"White",NA,"no","bachelors","test",8,"picture6.jpg","picture7.jpg",NA,NA,"word6.aiff","picture6.jpg","picture7.jpg","right",0,7,9,11
+"p741","kids","Exp2","Massed",2,2,"F",4.205479452,"Hispanic or Latino",NA,"no","bachelors","test",1,"picture6.jpg","picture7.jpg",NA,NA,"word6.aiff","picture6.jpg","picture7.jpg","right",0,7,9,11
+"p741","kids","Exp2","Massed",2,2,"F",4.205479452,"Hispanic or Latino",NA,"no","bachelors","test",2,"picture8.jpg","picture5.jpg",NA,NA,"word5.aiff","picture5.jpg","picture5.jpg","right",1,6,8,10
+"p741","kids","Exp2","Massed",2,2,"F",4.205479452,"Hispanic or Latino",NA,"no","bachelors","test",3,"picture6.jpg","picture8.jpg",NA,NA,"word8.aiff","picture8.jpg","picture6.jpg","left",0,8,9,12
+"p741","kids","Exp2","Massed",2,2,"F",4.205479452,"Hispanic or Latino",NA,"no","bachelors","test",4,"picture4.jpg","picture1.jpg",NA,NA,"word1.aiff","picture1.jpg","picture1.jpg","right",1,1,3,5
+"p741","kids","Exp2","Massed",2,2,"F",4.205479452,"Hispanic or Latino",NA,"no","bachelors","test",5,"picture3.jpg","picture1.jpg",NA,NA,"word3.aiff","picture3.jpg","picture3.jpg","left",1,2,3,6
+"p741","kids","Exp2","Massed",2,2,"F",4.205479452,"Hispanic or Latino",NA,"no","bachelors","test",6,"picture2.jpg","picture3.jpg",NA,NA,"word2.aiff","picture2.jpg","picture2.jpg","left",1,1,2,4
+"p741","kids","Exp2","Massed",2,2,"F",4.205479452,"Hispanic or Latino",NA,"no","bachelors","test",7,"picture7.jpg","picture5.jpg",NA,NA,"word7.aiff","picture7.jpg","picture5.jpg","right",0,10,11,12
+"p741","kids","Exp2","Massed",2,2,"F",4.205479452,"Hispanic or Latino",NA,"no","bachelors","test",8,"picture2.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture4.jpg","right",1,4,5,7
+"p744","kids","Exp2","Massed",2,1,"M",7.928767123,"Asian",NA,"yes","masters","test",1,"picture2.jpg","picture3.jpg",NA,NA,"word2.aiff","picture2.jpg","picture2.jpg","left",1,1,2,4
+"p744","kids","Exp2","Massed",2,1,"M",7.928767123,"Asian",NA,"yes","masters","test",2,"picture2.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture4.jpg","right",1,4,5,7
+"p744","kids","Exp2","Massed",2,1,"M",7.928767123,"Asian",NA,"yes","masters","test",3,"picture6.jpg","picture7.jpg",NA,NA,"word6.aiff","picture6.jpg","picture6.jpg","left",1,7,9,11
+"p744","kids","Exp2","Massed",2,1,"M",7.928767123,"Asian",NA,"yes","masters","test",4,"picture8.jpg","picture5.jpg",NA,NA,"word5.aiff","picture5.jpg","picture5.jpg","right",1,6,8,10
+"p744","kids","Exp2","Massed",2,1,"M",7.928767123,"Asian",NA,"yes","masters","test",5,"picture7.jpg","picture5.jpg",NA,NA,"word7.aiff","picture7.jpg","picture7.jpg","left",1,10,11,12
+"p744","kids","Exp2","Massed",2,1,"M",7.928767123,"Asian",NA,"yes","masters","test",6,"picture3.jpg","picture1.jpg",NA,NA,"word3.aiff","picture3.jpg","picture3.jpg","left",1,2,3,6
+"p744","kids","Exp2","Massed",2,1,"M",7.928767123,"Asian",NA,"yes","masters","test",7,"picture4.jpg","picture1.jpg",NA,NA,"word1.aiff","picture1.jpg","picture1.jpg","right",1,1,3,5
+"p744","kids","Exp2","Massed",2,1,"M",7.928767123,"Asian",NA,"yes","masters","test",8,"picture6.jpg","picture8.jpg",NA,NA,"word8.aiff","picture8.jpg","picture8.jpg","right",1,8,9,12
+"p745","kids","Exp2","Massed",2,2,"M",5.931506849,"Asian",NA,"yes","masters","test",1,"picture8.jpg","picture5.jpg",NA,NA,"word5.aiff","picture5.jpg","picture8.jpg","left",0,6,8,10
+"p745","kids","Exp2","Massed",2,2,"M",5.931506849,"Asian",NA,"yes","masters","test",2,"picture2.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture4.jpg","right",1,4,5,7
+"p745","kids","Exp2","Massed",2,2,"M",5.931506849,"Asian",NA,"yes","masters","test",3,"picture6.jpg","picture8.jpg",NA,NA,"word8.aiff","picture8.jpg","picture6.jpg","left",0,8,9,12
+"p745","kids","Exp2","Massed",2,2,"M",5.931506849,"Asian",NA,"yes","masters","test",4,"picture3.jpg","picture1.jpg",NA,NA,"word3.aiff","picture3.jpg","picture3.jpg","left",1,2,3,6
+"p745","kids","Exp2","Massed",2,2,"M",5.931506849,"Asian",NA,"yes","masters","test",5,"picture7.jpg","picture5.jpg",NA,NA,"word7.aiff","picture7.jpg","picture7.jpg","left",1,10,11,12
+"p745","kids","Exp2","Massed",2,2,"M",5.931506849,"Asian",NA,"yes","masters","test",6,"picture4.jpg","picture1.jpg",NA,NA,"word1.aiff","picture1.jpg","picture1.jpg","right",1,1,3,5
+"p745","kids","Exp2","Massed",2,2,"M",5.931506849,"Asian",NA,"yes","masters","test",7,"picture6.jpg","picture7.jpg",NA,NA,"word6.aiff","picture6.jpg","picture6.jpg","left",1,7,9,11
+"p745","kids","Exp2","Massed",2,2,"M",5.931506849,"Asian",NA,"yes","masters","test",8,"picture2.jpg","picture3.jpg",NA,NA,"word2.aiff","picture2.jpg","picture2.jpg","left",1,1,2,4
+"p748","kids","Exp2","Massed",2,1,"F",5.210958904,"White",NA,"yes","bachelors","test",1,"picture7.jpg","picture5.jpg",NA,NA,"word7.aiff","picture7.jpg","picture5.jpg","right",0,10,11,12
+"p748","kids","Exp2","Massed",2,1,"F",5.210958904,"White",NA,"yes","bachelors","test",2,"picture4.jpg","picture1.jpg",NA,NA,"word1.aiff","picture1.jpg","picture4.jpg","left",0,1,3,5
+"p748","kids","Exp2","Massed",2,1,"F",5.210958904,"White",NA,"yes","bachelors","test",3,"picture2.jpg","picture3.jpg",NA,NA,"word2.aiff","picture2.jpg","picture2.jpg","left",1,1,2,4
+"p748","kids","Exp2","Massed",2,1,"F",5.210958904,"White",NA,"yes","bachelors","test",4,"picture6.jpg","picture7.jpg",NA,NA,"word6.aiff","picture6.jpg","picture6.jpg","left",1,7,9,11
+"p748","kids","Exp2","Massed",2,1,"F",5.210958904,"White",NA,"yes","bachelors","test",5,"picture2.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture4.jpg","right",1,4,5,7
+"p748","kids","Exp2","Massed",2,1,"F",5.210958904,"White",NA,"yes","bachelors","test",6,"picture8.jpg","picture5.jpg",NA,NA,"word5.aiff","picture5.jpg","picture5.jpg","right",1,6,8,10
+"p748","kids","Exp2","Massed",2,1,"F",5.210958904,"White",NA,"yes","bachelors","test",7,"picture6.jpg","picture8.jpg",NA,NA,"word8.aiff","picture8.jpg","picture8.jpg","right",1,8,9,12
+"p748","kids","Exp2","Massed",2,1,"F",5.210958904,"White",NA,"yes","bachelors","test",8,"picture3.jpg","picture1.jpg",NA,NA,"word3.aiff","picture3.jpg","picture1.jpg","right",0,2,3,6
+"p749","kids","Exp2","Massed",2,2,"F",7.690410959,"White",NA,"no","phd","test",1,"picture6.jpg","picture7.jpg",NA,NA,"word6.aiff","picture6.jpg","picture7.jpg","right",0,7,9,11
+"p749","kids","Exp2","Massed",2,2,"F",7.690410959,"White",NA,"no","phd","test",2,"picture3.jpg","picture1.jpg",NA,NA,"word3.aiff","picture3.jpg","picture3.jpg","left",1,2,3,6
+"p749","kids","Exp2","Massed",2,2,"F",7.690410959,"White",NA,"no","phd","test",3,"picture6.jpg","picture8.jpg",NA,NA,"word8.aiff","picture8.jpg","picture8.jpg","right",1,8,9,12
+"p749","kids","Exp2","Massed",2,2,"F",7.690410959,"White",NA,"no","phd","test",4,"picture4.jpg","picture1.jpg",NA,NA,"word1.aiff","picture1.jpg","picture4.jpg","left",0,1,3,5
+"p749","kids","Exp2","Massed",2,2,"F",7.690410959,"White",NA,"no","phd","test",5,"picture8.jpg","picture5.jpg",NA,NA,"word5.aiff","picture5.jpg","picture5.jpg","right",1,6,8,10
+"p749","kids","Exp2","Massed",2,2,"F",7.690410959,"White",NA,"no","phd","test",6,"picture7.jpg","picture5.jpg",NA,NA,"word7.aiff","picture7.jpg","picture7.jpg","left",1,10,11,12
+"p749","kids","Exp2","Massed",2,2,"F",7.690410959,"White",NA,"no","phd","test",7,"picture2.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture2.jpg","left",0,4,5,7
+"p749","kids","Exp2","Massed",2,2,"F",7.690410959,"White",NA,"no","phd","test",8,"picture2.jpg","picture3.jpg",NA,NA,"word2.aiff","picture2.jpg","picture3.jpg","right",0,1,2,4
+"p753","kids","Exp2","Massed",2,2,"F",5.030136986,"White",NA,"no","associates","test",1,"picture4.jpg","picture1.jpg",NA,NA,"word1.aiff","picture1.jpg","picture4.jpg","left",0,1,3,5
+"p753","kids","Exp2","Massed",2,2,"F",5.030136986,"White",NA,"no","associates","test",2,"picture6.jpg","picture7.jpg",NA,NA,"word6.aiff","picture6.jpg","picture6.jpg","left",1,7,9,11
+"p753","kids","Exp2","Massed",2,2,"F",5.030136986,"White",NA,"no","associates","test",3,"picture2.jpg","picture3.jpg",NA,NA,"word2.aiff","picture2.jpg","picture3.jpg","right",0,1,2,4
+"p753","kids","Exp2","Massed",2,2,"F",5.030136986,"White",NA,"no","associates","test",4,"picture2.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture4.jpg","right",1,4,5,7
+"p753","kids","Exp2","Massed",2,2,"F",5.030136986,"White",NA,"no","associates","test",5,"picture6.jpg","picture8.jpg",NA,NA,"word8.aiff","picture8.jpg","picture6.jpg","left",0,8,9,12
+"p753","kids","Exp2","Massed",2,2,"F",5.030136986,"White",NA,"no","associates","test",6,"picture7.jpg","picture5.jpg",NA,NA,"word7.aiff","picture7.jpg","picture5.jpg","right",0,10,11,12
+"p753","kids","Exp2","Massed",2,2,"F",5.030136986,"White",NA,"no","associates","test",7,"picture3.jpg","picture1.jpg",NA,NA,"word3.aiff","picture3.jpg","picture1.jpg","right",0,2,3,6
+"p753","kids","Exp2","Massed",2,2,"F",5.030136986,"White",NA,"no","associates","test",8,"picture8.jpg","picture5.jpg",NA,NA,"word5.aiff","picture5.jpg","picture8.jpg","left",0,6,8,10
+"p756","kids","Exp2","Massed",2,1,"F",6.506849315,"White",NA,"yes","masters","test",1,"picture6.jpg","picture8.jpg",NA,NA,"word8.aiff","picture8.jpg","picture8.jpg","right",1,8,9,12
+"p756","kids","Exp2","Massed",2,1,"F",6.506849315,"White",NA,"yes","masters","test",2,"picture7.jpg","picture5.jpg",NA,NA,"word7.aiff","picture7.jpg","picture7.jpg","left",1,10,11,12
+"p756","kids","Exp2","Massed",2,1,"F",6.506849315,"White",NA,"yes","masters","test",3,"picture3.jpg","picture1.jpg",NA,NA,"word3.aiff","picture3.jpg","picture3.jpg","left",1,2,3,6
+"p756","kids","Exp2","Massed",2,1,"F",6.506849315,"White",NA,"yes","masters","test",4,"picture2.jpg","picture3.jpg",NA,NA,"word2.aiff","picture2.jpg","picture2.jpg","left",1,1,2,4
+"p756","kids","Exp2","Massed",2,1,"F",6.506849315,"White",NA,"yes","masters","test",5,"picture2.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture4.jpg","right",1,4,5,7
+"p756","kids","Exp2","Massed",2,1,"F",6.506849315,"White",NA,"yes","masters","test",6,"picture4.jpg","picture1.jpg",NA,NA,"word1.aiff","picture1.jpg","picture1.jpg","right",1,1,3,5
+"p756","kids","Exp2","Massed",2,1,"F",6.506849315,"White",NA,"yes","masters","test",7,"picture8.jpg","picture5.jpg",NA,NA,"word5.aiff","picture5.jpg","picture5.jpg","right",1,6,8,10
+"p756","kids","Exp2","Massed",2,1,"F",6.506849315,"White",NA,"yes","masters","test",8,"picture6.jpg","picture7.jpg",NA,NA,"word6.aiff","picture6.jpg","picture6.jpg","left",1,7,9,11
+"p757","kids","Exp2","Massed",2,2,"F",5.983561644,"White",NA,"no","phd","test",1,"picture2.jpg","picture3.jpg",NA,NA,"word2.aiff","picture2.jpg","picture2.jpg","left",1,1,2,4
+"p757","kids","Exp2","Massed",2,2,"F",5.983561644,"White",NA,"no","phd","test",2,"picture7.jpg","picture5.jpg",NA,NA,"word7.aiff","picture7.jpg","picture7.jpg","left",1,10,11,12
+"p757","kids","Exp2","Massed",2,2,"F",5.983561644,"White",NA,"no","phd","test",3,"picture2.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture4.jpg","right",1,4,5,7
+"p757","kids","Exp2","Massed",2,2,"F",5.983561644,"White",NA,"no","phd","test",4,"picture6.jpg","picture8.jpg",NA,NA,"word8.aiff","picture8.jpg","picture8.jpg","right",1,8,9,12
+"p757","kids","Exp2","Massed",2,2,"F",5.983561644,"White",NA,"no","phd","test",5,"picture3.jpg","picture1.jpg",NA,NA,"word3.aiff","picture3.jpg","picture1.jpg","right",0,2,3,6
+"p757","kids","Exp2","Massed",2,2,"F",5.983561644,"White",NA,"no","phd","test",6,"picture6.jpg","picture7.jpg",NA,NA,"word6.aiff","picture6.jpg","picture6.jpg","left",1,7,9,11
+"p757","kids","Exp2","Massed",2,2,"F",5.983561644,"White",NA,"no","phd","test",7,"picture4.jpg","picture1.jpg",NA,NA,"word1.aiff","picture1.jpg","picture4.jpg","left",0,1,3,5
+"p757","kids","Exp2","Massed",2,2,"F",5.983561644,"White",NA,"no","phd","test",8,"picture8.jpg","picture5.jpg",NA,NA,"word5.aiff","picture5.jpg","picture5.jpg","right",1,6,8,10
+"p760","kids","Exp2","Massed",2,1,"M",6.868493151,"White",NA,"no","bachelors","test",1,"picture2.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture4.jpg","right",1,4,5,7
+"p760","kids","Exp2","Massed",2,1,"M",6.868493151,"White",NA,"no","bachelors","test",2,"picture2.jpg","picture3.jpg",NA,NA,"word2.aiff","picture2.jpg","picture2.jpg","left",1,1,2,4
+"p760","kids","Exp2","Massed",2,1,"M",6.868493151,"White",NA,"no","bachelors","test",3,"picture8.jpg","picture5.jpg",NA,NA,"word5.aiff","picture5.jpg","picture5.jpg","right",1,6,8,10
+"p760","kids","Exp2","Massed",2,1,"M",6.868493151,"White",NA,"no","bachelors","test",4,"picture6.jpg","picture8.jpg",NA,NA,"word8.aiff","picture8.jpg","picture6.jpg","left",0,8,9,12
+"p760","kids","Exp2","Massed",2,1,"M",6.868493151,"White",NA,"no","bachelors","test",5,"picture4.jpg","picture1.jpg",NA,NA,"word1.aiff","picture1.jpg","picture1.jpg","right",1,1,3,5
+"p760","kids","Exp2","Massed",2,1,"M",6.868493151,"White",NA,"no","bachelors","test",6,"picture7.jpg","picture5.jpg",NA,NA,"word7.aiff","picture7.jpg","picture7.jpg","left",1,10,11,12
+"p760","kids","Exp2","Massed",2,1,"M",6.868493151,"White",NA,"no","bachelors","test",7,"picture3.jpg","picture1.jpg",NA,NA,"word3.aiff","picture3.jpg","picture3.jpg","left",1,2,3,6
+"p760","kids","Exp2","Massed",2,1,"M",6.868493151,"White",NA,"no","bachelors","test",8,"picture6.jpg","picture7.jpg",NA,NA,"word6.aiff","picture6.jpg","picture6.jpg","left",1,7,9,11
+"p761","kids","Exp2","Massed",2,2,"F",5.983561644,"White",NA,"no","bachelors","test",1,"picture3.jpg","picture1.jpg",NA,NA,"word3.aiff","picture3.jpg","picture1.jpg","right",0,2,3,6
+"p761","kids","Exp2","Massed",2,2,"F",5.983561644,"White",NA,"no","bachelors","test",2,"picture6.jpg","picture7.jpg",NA,NA,"word6.aiff","picture6.jpg","picture6.jpg","left",1,7,9,11
+"p761","kids","Exp2","Massed",2,2,"F",5.983561644,"White",NA,"no","bachelors","test",3,"picture2.jpg","picture3.jpg",NA,NA,"word2.aiff","picture2.jpg","picture2.jpg","left",1,1,2,4
+"p761","kids","Exp2","Massed",2,2,"F",5.983561644,"White",NA,"no","bachelors","test",4,"picture6.jpg","picture8.jpg",NA,NA,"word8.aiff","picture8.jpg","picture8.jpg","right",1,8,9,12
+"p761","kids","Exp2","Massed",2,2,"F",5.983561644,"White",NA,"no","bachelors","test",5,"picture7.jpg","picture5.jpg",NA,NA,"word7.aiff","picture7.jpg","picture7.jpg","left",1,10,11,12
+"p761","kids","Exp2","Massed",2,2,"F",5.983561644,"White",NA,"no","bachelors","test",6,"picture8.jpg","picture5.jpg",NA,NA,"word5.aiff","picture5.jpg","picture5.jpg","right",1,6,8,10
+"p761","kids","Exp2","Massed",2,2,"F",5.983561644,"White",NA,"no","bachelors","test",7,"picture4.jpg","picture1.jpg",NA,NA,"word1.aiff","picture1.jpg","picture4.jpg","left",0,1,3,5
+"p761","kids","Exp2","Massed",2,2,"F",5.983561644,"White",NA,"no","bachelors","test",8,"picture2.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture2.jpg","left",0,4,5,7
+"p765","kids","Exp2","Massed",2,2,"F",4.339726027,"White",NA,"no","bachelors","test",1,"picture2.jpg","picture3.jpg",NA,NA,"word2.aiff","picture2.jpg","picture3.jpg","right",0,1,2,4
+"p765","kids","Exp2","Massed",2,2,"F",4.339726027,"White",NA,"no","bachelors","test",2,"picture3.jpg","picture1.jpg",NA,NA,"word3.aiff","picture3.jpg","picture1.jpg","right",0,2,3,6
+"p765","kids","Exp2","Massed",2,2,"F",4.339726027,"White",NA,"no","bachelors","test",3,"picture7.jpg","picture5.jpg",NA,NA,"word7.aiff","picture7.jpg","picture7.jpg","left",1,10,11,12
+"p765","kids","Exp2","Massed",2,2,"F",4.339726027,"White",NA,"no","bachelors","test",4,"picture2.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture4.jpg","right",1,4,5,7
+"p765","kids","Exp2","Massed",2,2,"F",4.339726027,"White",NA,"no","bachelors","test",5,"picture6.jpg","picture7.jpg",NA,NA,"word6.aiff","picture6.jpg","picture6.jpg","left",1,7,9,11
+"p765","kids","Exp2","Massed",2,2,"F",4.339726027,"White",NA,"no","bachelors","test",6,"picture4.jpg","picture1.jpg",NA,NA,"word1.aiff","picture1.jpg","picture1.jpg","right",1,1,3,5
+"p765","kids","Exp2","Massed",2,2,"F",4.339726027,"White",NA,"no","bachelors","test",7,"picture8.jpg","picture5.jpg",NA,NA,"word5.aiff","picture5.jpg","picture5.jpg","right",1,6,8,10
+"p765","kids","Exp2","Massed",2,2,"F",4.339726027,"White",NA,"no","bachelors","test",8,"picture6.jpg","picture8.jpg",NA,NA,"word8.aiff","picture8.jpg","picture8.jpg","right",1,8,9,12
+"p768","kids","Exp2","Massed",2,1,"F",5.246575342,"White",NA,"no","associates","test",1,"picture7.jpg","picture5.jpg",NA,NA,"word7.aiff","picture7.jpg","picture7.jpg","left",1,10,11,12
+"p768","kids","Exp2","Massed",2,1,"F",5.246575342,"White",NA,"no","associates","test",2,"picture6.jpg","picture8.jpg",NA,NA,"word8.aiff","picture8.jpg","picture8.jpg","right",1,8,9,12
+"p768","kids","Exp2","Massed",2,1,"F",5.246575342,"White",NA,"no","associates","test",3,"picture2.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture4.jpg","right",1,4,5,7
+"p768","kids","Exp2","Massed",2,1,"F",5.246575342,"White",NA,"no","associates","test",4,"picture3.jpg","picture1.jpg",NA,NA,"word3.aiff","picture3.jpg","picture3.jpg","left",1,2,3,6
+"p768","kids","Exp2","Massed",2,1,"F",5.246575342,"White",NA,"no","associates","test",5,"picture8.jpg","picture5.jpg",NA,NA,"word5.aiff","picture5.jpg","picture5.jpg","right",1,6,8,10
+"p768","kids","Exp2","Massed",2,1,"F",5.246575342,"White",NA,"no","associates","test",6,"picture4.jpg","picture1.jpg",NA,NA,"word1.aiff","picture1.jpg","picture1.jpg","right",1,1,3,5
+"p768","kids","Exp2","Massed",2,1,"F",5.246575342,"White",NA,"no","associates","test",7,"picture6.jpg","picture7.jpg",NA,NA,"word6.aiff","picture6.jpg","picture6.jpg","left",1,7,9,11
+"p768","kids","Exp2","Massed",2,1,"F",5.246575342,"White",NA,"no","associates","test",8,"picture2.jpg","picture3.jpg",NA,NA,"word2.aiff","picture2.jpg","picture2.jpg","left",1,1,2,4
+"p769","kids","Exp2","Massed",2,2,"F",5.846575342,"White",NA,"no","masters","test",1,"picture6.jpg","picture7.jpg",NA,NA,"word6.aiff","picture6.jpg","picture6.jpg","left",1,7,9,11
+"p769","kids","Exp2","Massed",2,2,"F",5.846575342,"White",NA,"no","masters","test",2,"picture4.jpg","picture1.jpg",NA,NA,"word1.aiff","picture1.jpg","picture4.jpg","left",0,1,3,5
+"p769","kids","Exp2","Massed",2,2,"F",5.846575342,"White",NA,"no","masters","test",3,"picture6.jpg","picture8.jpg",NA,NA,"word8.aiff","picture8.jpg","picture6.jpg","left",0,8,9,12
+"p769","kids","Exp2","Massed",2,2,"F",5.846575342,"White",NA,"no","masters","test",4,"picture2.jpg","picture3.jpg",NA,NA,"word2.aiff","picture2.jpg","picture2.jpg","left",1,1,2,4
+"p769","kids","Exp2","Massed",2,2,"F",5.846575342,"White",NA,"no","masters","test",5,"picture2.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture4.jpg","right",1,4,5,7
+"p769","kids","Exp2","Massed",2,2,"F",5.846575342,"White",NA,"no","masters","test",6,"picture7.jpg","picture5.jpg",NA,NA,"word7.aiff","picture7.jpg","picture7.jpg","left",1,10,11,12
+"p769","kids","Exp2","Massed",2,2,"F",5.846575342,"White",NA,"no","masters","test",7,"picture3.jpg","picture1.jpg",NA,NA,"word3.aiff","picture3.jpg","picture3.jpg","left",1,2,3,6
+"p769","kids","Exp2","Massed",2,2,"F",5.846575342,"White",NA,"no","masters","test",8,"picture8.jpg","picture5.jpg",NA,NA,"word5.aiff","picture5.jpg","picture5.jpg","right",1,6,8,10
+"p772","kids","Exp2","Massed",2,2,"F",6.369863014,"White",NA,"no","associates","test",1,"picture6.jpg","picture8.jpg",NA,NA,"word8.aiff","picture8.jpg","picture8.jpg","right",1,8,9,12
+"p772","kids","Exp2","Massed",2,2,"F",6.369863014,"White",NA,"no","associates","test",2,"picture2.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture4.jpg","right",1,4,5,7
+"p772","kids","Exp2","Massed",2,2,"F",6.369863014,"White",NA,"no","associates","test",3,"picture7.jpg","picture5.jpg",NA,NA,"word7.aiff","picture7.jpg","picture7.jpg","left",1,10,11,12
+"p772","kids","Exp2","Massed",2,2,"F",6.369863014,"White",NA,"no","associates","test",4,"picture4.jpg","picture1.jpg",NA,NA,"word1.aiff","picture1.jpg","picture1.jpg","right",1,1,3,5
+"p772","kids","Exp2","Massed",2,2,"F",6.369863014,"White",NA,"no","associates","test",5,"picture8.jpg","picture5.jpg",NA,NA,"word5.aiff","picture5.jpg","picture5.jpg","right",1,6,8,10
+"p772","kids","Exp2","Massed",2,2,"F",6.369863014,"White",NA,"no","associates","test",6,"picture2.jpg","picture3.jpg",NA,NA,"word2.aiff","picture2.jpg","picture2.jpg","left",1,1,2,4
+"p772","kids","Exp2","Massed",2,2,"F",6.369863014,"White",NA,"no","associates","test",7,"picture6.jpg","picture7.jpg",NA,NA,"word6.aiff","picture6.jpg","picture6.jpg","left",1,7,9,11
+"p772","kids","Exp2","Massed",2,2,"F",6.369863014,"White",NA,"no","associates","test",8,"picture3.jpg","picture1.jpg",NA,NA,"word3.aiff","picture3.jpg","picture3.jpg","left",1,2,3,6
+"p773","kids","Exp2","Massed",2,2,"F",4.961643836,"N/A",NA,"yes","phd","test",1,"picture6.jpg","picture7.jpg",NA,NA,"word6.aiff","picture6.jpg","picture6.jpg","left",1,7,9,11
+"p773","kids","Exp2","Massed",2,2,"F",4.961643836,"N/A",NA,"yes","phd","test",2,"picture4.jpg","picture1.jpg",NA,NA,"word1.aiff","picture1.jpg","picture4.jpg","left",0,1,3,5
+"p773","kids","Exp2","Massed",2,2,"F",4.961643836,"N/A",NA,"yes","phd","test",3,"picture8.jpg","picture5.jpg",NA,NA,"word5.aiff","picture5.jpg","picture5.jpg","right",1,6,8,10
+"p773","kids","Exp2","Massed",2,2,"F",4.961643836,"N/A",NA,"yes","phd","test",4,"picture2.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture4.jpg","right",1,4,5,7
+"p773","kids","Exp2","Massed",2,2,"F",4.961643836,"N/A",NA,"yes","phd","test",5,"picture3.jpg","picture1.jpg",NA,NA,"word3.aiff","picture3.jpg","picture3.jpg","left",1,2,3,6
+"p773","kids","Exp2","Massed",2,2,"F",4.961643836,"N/A",NA,"yes","phd","test",6,"picture7.jpg","picture5.jpg",NA,NA,"word7.aiff","picture7.jpg","picture7.jpg","left",1,10,11,12
+"p773","kids","Exp2","Massed",2,2,"F",4.961643836,"N/A",NA,"yes","phd","test",7,"picture6.jpg","picture8.jpg",NA,NA,"word8.aiff","picture8.jpg","picture8.jpg","right",1,8,9,12
+"p773","kids","Exp2","Massed",2,2,"F",4.961643836,"N/A",NA,"yes","phd","test",8,"picture2.jpg","picture3.jpg",NA,NA,"word2.aiff","picture2.jpg","picture2.jpg","left",1,1,2,4
+"p776","kids","Exp2","Massed",2,1,"F",7.416438356,"Multi",NA,"yes","somecollege","test",1,"picture6.jpg","picture7.jpg",NA,NA,"word6.aiff","picture6.jpg","picture6.jpg","left",1,7,9,11
+"p776","kids","Exp2","Massed",2,1,"F",7.416438356,"Multi",NA,"yes","somecollege","test",2,"picture8.jpg","picture5.jpg",NA,NA,"word5.aiff","picture5.jpg","picture8.jpg","left",0,6,8,10
+"p776","kids","Exp2","Massed",2,1,"F",7.416438356,"Multi",NA,"yes","somecollege","test",3,"picture3.jpg","picture1.jpg",NA,NA,"word3.aiff","picture3.jpg","picture1.jpg","right",0,2,3,6
+"p776","kids","Exp2","Massed",2,1,"F",7.416438356,"Multi",NA,"yes","somecollege","test",4,"picture4.jpg","picture1.jpg",NA,NA,"word1.aiff","picture1.jpg","picture4.jpg","left",0,1,3,5
+"p776","kids","Exp2","Massed",2,1,"F",7.416438356,"Multi",NA,"yes","somecollege","test",5,"picture6.jpg","picture8.jpg",NA,NA,"word8.aiff","picture8.jpg","picture8.jpg","right",1,8,9,12
+"p776","kids","Exp2","Massed",2,1,"F",7.416438356,"Multi",NA,"yes","somecollege","test",6,"picture2.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture2.jpg","left",0,4,5,7
+"p776","kids","Exp2","Massed",2,1,"F",7.416438356,"Multi",NA,"yes","somecollege","test",7,"picture2.jpg","picture3.jpg",NA,NA,"word2.aiff","picture2.jpg","picture3.jpg","right",0,1,2,4
+"p776","kids","Exp2","Massed",2,1,"F",7.416438356,"Multi",NA,"yes","somecollege","test",8,"picture7.jpg","picture5.jpg",NA,NA,"word7.aiff","picture7.jpg","picture7.jpg","left",1,10,11,12
+"p777","kids","Exp2","Massed",2,2,"F",6.126027397,"Black or African American",NA,"no","masters","test",1,"picture6.jpg","picture8.jpg",NA,NA,"word8.aiff","picture8.jpg","picture6.jpg","left",0,8,9,12
+"p777","kids","Exp2","Massed",2,2,"F",6.126027397,"Black or African American",NA,"no","masters","test",2,"picture2.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture4.jpg","right",1,4,5,7
+"p777","kids","Exp2","Massed",2,2,"F",6.126027397,"Black or African American",NA,"no","masters","test",3,"picture7.jpg","picture5.jpg",NA,NA,"word7.aiff","picture7.jpg","picture5.jpg","right",0,10,11,12
+"p777","kids","Exp2","Massed",2,2,"F",6.126027397,"Black or African American",NA,"no","masters","test",4,"picture3.jpg","picture1.jpg",NA,NA,"word3.aiff","picture3.jpg","picture3.jpg","left",1,2,3,6
+"p777","kids","Exp2","Massed",2,2,"F",6.126027397,"Black or African American",NA,"no","masters","test",5,"picture4.jpg","picture1.jpg",NA,NA,"word1.aiff","picture1.jpg","picture4.jpg","left",0,1,3,5
+"p777","kids","Exp2","Massed",2,2,"F",6.126027397,"Black or African American",NA,"no","masters","test",6,"picture8.jpg","picture5.jpg",NA,NA,"word5.aiff","picture5.jpg","picture5.jpg","right",1,6,8,10
+"p777","kids","Exp2","Massed",2,2,"F",6.126027397,"Black or African American",NA,"no","masters","test",7,"picture6.jpg","picture7.jpg",NA,NA,"word6.aiff","picture6.jpg","picture6.jpg","left",1,7,9,11
+"p777","kids","Exp2","Massed",2,2,"F",6.126027397,"Black or African American",NA,"no","masters","test",8,"picture2.jpg","picture3.jpg",NA,NA,"word2.aiff","picture2.jpg","picture2.jpg","left",1,1,2,4
+"p780","kids","Exp2","Massed",2,1,"F",4.452054795,"Black or African American",NA,"no","bachelors","test",1,"picture6.jpg","picture8.jpg",NA,NA,"word8.aiff","picture8.jpg","picture6.jpg","left",0,8,9,12
+"p780","kids","Exp2","Massed",2,1,"F",4.452054795,"Black or African American",NA,"no","bachelors","test",2,"picture6.jpg","picture7.jpg",NA,NA,"word6.aiff","picture6.jpg","picture7.jpg","right",0,7,9,11
+"p780","kids","Exp2","Massed",2,1,"F",4.452054795,"Black or African American",NA,"no","bachelors","test",3,"picture8.jpg","picture5.jpg",NA,NA,"word5.aiff","picture5.jpg","picture5.jpg","right",1,6,8,10
+"p780","kids","Exp2","Massed",2,1,"F",4.452054795,"Black or African American",NA,"no","bachelors","test",4,"picture3.jpg","picture1.jpg",NA,NA,"word3.aiff","picture3.jpg","picture3.jpg","left",1,2,3,6
+"p780","kids","Exp2","Massed",2,1,"F",4.452054795,"Black or African American",NA,"no","bachelors","test",5,"picture2.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture2.jpg","left",0,4,5,7
+"p780","kids","Exp2","Massed",2,1,"F",4.452054795,"Black or African American",NA,"no","bachelors","test",6,"picture2.jpg","picture3.jpg",NA,NA,"word2.aiff","picture2.jpg","picture3.jpg","right",0,1,2,4
+"p780","kids","Exp2","Massed",2,1,"F",4.452054795,"Black or African American",NA,"no","bachelors","test",7,"picture7.jpg","picture5.jpg",NA,NA,"word7.aiff","picture7.jpg","picture7.jpg","left",1,10,11,12
+"p780","kids","Exp2","Massed",2,1,"F",4.452054795,"Black or African American",NA,"no","bachelors","test",8,"picture4.jpg","picture1.jpg",NA,NA,"word1.aiff","picture1.jpg","picture1.jpg","right",1,1,3,5
+"p781","kids","Exp2","Massed",2,2,"M",5.536986301,"Multi",NA,"no","somecollege","test",1,"picture6.jpg","picture7.jpg",NA,NA,"word6.aiff","picture6.jpg","picture7.jpg","right",0,7,9,11
+"p781","kids","Exp2","Massed",2,2,"M",5.536986301,"Multi",NA,"no","somecollege","test",2,"picture6.jpg","picture8.jpg",NA,NA,"word8.aiff","picture8.jpg","picture6.jpg","left",0,8,9,12
+"p781","kids","Exp2","Massed",2,2,"M",5.536986301,"Multi",NA,"no","somecollege","test",3,"picture7.jpg","picture5.jpg",NA,NA,"word7.aiff","picture7.jpg","picture7.jpg","left",1,10,11,12
+"p781","kids","Exp2","Massed",2,2,"M",5.536986301,"Multi",NA,"no","somecollege","test",4,"picture8.jpg","picture5.jpg",NA,NA,"word5.aiff","picture5.jpg","picture5.jpg","right",1,6,8,10
+"p781","kids","Exp2","Massed",2,2,"M",5.536986301,"Multi",NA,"no","somecollege","test",5,"picture3.jpg","picture1.jpg",NA,NA,"word3.aiff","picture3.jpg","picture1.jpg","right",0,2,3,6
+"p781","kids","Exp2","Massed",2,2,"M",5.536986301,"Multi",NA,"no","somecollege","test",6,"picture2.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture2.jpg","left",0,4,5,7
+"p781","kids","Exp2","Massed",2,2,"M",5.536986301,"Multi",NA,"no","somecollege","test",7,"picture4.jpg","picture1.jpg",NA,NA,"word1.aiff","picture1.jpg","picture1.jpg","right",1,1,3,5
+"p781","kids","Exp2","Massed",2,2,"M",5.536986301,"Multi",NA,"no","somecollege","test",8,"picture2.jpg","picture3.jpg",NA,NA,"word2.aiff","picture2.jpg","picture3.jpg","right",0,1,2,4
+"p784","kids","Exp2","Massed",2,1,"F",6.161643836,"Hispanic or Latino",NA,"yes","somehigh","test",1,"picture6.jpg","picture8.jpg",NA,NA,"word8.aiff","picture8.jpg","picture8.jpg","right",1,8,9,12
+"p784","kids","Exp2","Massed",2,1,"F",6.161643836,"Hispanic or Latino",NA,"yes","somehigh","test",2,"picture2.jpg","picture3.jpg",NA,NA,"word2.aiff","picture2.jpg","picture3.jpg","right",0,1,2,4
+"p784","kids","Exp2","Massed",2,1,"F",6.161643836,"Hispanic or Latino",NA,"yes","somehigh","test",3,"picture3.jpg","picture1.jpg",NA,NA,"word3.aiff","picture3.jpg","picture3.jpg","left",1,2,3,6
+"p784","kids","Exp2","Massed",2,1,"F",6.161643836,"Hispanic or Latino",NA,"yes","somehigh","test",4,"picture7.jpg","picture5.jpg",NA,NA,"word7.aiff","picture7.jpg","picture5.jpg","right",0,10,11,12
+"p784","kids","Exp2","Massed",2,1,"F",6.161643836,"Hispanic or Latino",NA,"yes","somehigh","test",5,"picture8.jpg","picture5.jpg",NA,NA,"word5.aiff","picture5.jpg","picture5.jpg","right",1,6,8,10
+"p784","kids","Exp2","Massed",2,1,"F",6.161643836,"Hispanic or Latino",NA,"yes","somehigh","test",6,"picture2.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture2.jpg","left",0,4,5,7
+"p784","kids","Exp2","Massed",2,1,"F",6.161643836,"Hispanic or Latino",NA,"yes","somehigh","test",7,"picture6.jpg","picture7.jpg",NA,NA,"word6.aiff","picture6.jpg","picture6.jpg","left",1,7,9,11
+"p784","kids","Exp2","Massed",2,1,"F",6.161643836,"Hispanic or Latino",NA,"yes","somehigh","test",8,"picture4.jpg","picture1.jpg",NA,NA,"word1.aiff","picture1.jpg","picture1.jpg","right",1,1,3,5
+"p785","kids","Exp2","Massed",2,2,"F",6.345205479,"White",NA,"no","bachelors","test",1,"picture4.jpg","picture1.jpg",NA,NA,"word1.aiff","picture1.jpg","picture4.jpg","left",0,1,3,5
+"p785","kids","Exp2","Massed",2,2,"F",6.345205479,"White",NA,"no","bachelors","test",2,"picture6.jpg","picture7.jpg",NA,NA,"word6.aiff","picture6.jpg","picture7.jpg","right",0,7,9,11
+"p785","kids","Exp2","Massed",2,2,"F",6.345205479,"White",NA,"no","bachelors","test",3,"picture2.jpg","picture3.jpg",NA,NA,"word2.aiff","picture2.jpg","picture2.jpg","left",1,1,2,4
+"p785","kids","Exp2","Massed",2,2,"F",6.345205479,"White",NA,"no","bachelors","test",4,"picture8.jpg","picture5.jpg",NA,NA,"word5.aiff","picture5.jpg","picture5.jpg","right",1,6,8,10
+"p785","kids","Exp2","Massed",2,2,"F",6.345205479,"White",NA,"no","bachelors","test",5,"picture6.jpg","picture8.jpg",NA,NA,"word8.aiff","picture8.jpg","picture6.jpg","left",0,8,9,12
+"p785","kids","Exp2","Massed",2,2,"F",6.345205479,"White",NA,"no","bachelors","test",6,"picture2.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture4.jpg","right",1,4,5,7
+"p785","kids","Exp2","Massed",2,2,"F",6.345205479,"White",NA,"no","bachelors","test",7,"picture7.jpg","picture5.jpg",NA,NA,"word7.aiff","picture7.jpg","picture7.jpg","left",1,10,11,12
+"p785","kids","Exp2","Massed",2,2,"F",6.345205479,"White",NA,"no","bachelors","test",8,"picture3.jpg","picture1.jpg",NA,NA,"word3.aiff","picture3.jpg","picture1.jpg","right",0,2,3,6
+"p788","kids","Exp2","Massed",2,1,"F",4.876712329,"Hispanic or Latino",NA,"yes","associates","test",1,"picture6.jpg","picture7.jpg",NA,NA,"word6.aiff","picture6.jpg","picture7.jpg","right",0,7,9,11
+"p788","kids","Exp2","Massed",2,1,"F",4.876712329,"Hispanic or Latino",NA,"yes","associates","test",2,"picture2.jpg","picture3.jpg",NA,NA,"word2.aiff","picture2.jpg","picture3.jpg","right",0,1,2,4
+"p788","kids","Exp2","Massed",2,1,"F",4.876712329,"Hispanic or Latino",NA,"yes","associates","test",3,"picture7.jpg","picture5.jpg",NA,NA,"word7.aiff","picture7.jpg","picture5.jpg","right",0,10,11,12
+"p788","kids","Exp2","Massed",2,1,"F",4.876712329,"Hispanic or Latino",NA,"yes","associates","test",4,"picture6.jpg","picture8.jpg",NA,NA,"word8.aiff","picture8.jpg","picture8.jpg","right",1,8,9,12
+"p788","kids","Exp2","Massed",2,1,"F",4.876712329,"Hispanic or Latino",NA,"yes","associates","test",5,"picture8.jpg","picture5.jpg",NA,NA,"word5.aiff","picture5.jpg","picture5.jpg","right",1,6,8,10
+"p788","kids","Exp2","Massed",2,1,"F",4.876712329,"Hispanic or Latino",NA,"yes","associates","test",6,"picture4.jpg","picture1.jpg",NA,NA,"word1.aiff","picture1.jpg","picture1.jpg","right",1,1,3,5
+"p788","kids","Exp2","Massed",2,1,"F",4.876712329,"Hispanic or Latino",NA,"yes","associates","test",7,"picture3.jpg","picture1.jpg",NA,NA,"word3.aiff","picture3.jpg","picture1.jpg","right",0,2,3,6
+"p788","kids","Exp2","Massed",2,1,"F",4.876712329,"Hispanic or Latino",NA,"yes","associates","test",8,"picture2.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture4.jpg","right",1,4,5,7
+"p789","kids","Exp2","Massed",2,2,"F",6.232876712,"Hispanic or Latino",NA,"no","associates","test",1,"picture7.jpg","picture5.jpg",NA,NA,"word7.aiff","picture7.jpg","picture5.jpg","right",0,10,11,12
+"p789","kids","Exp2","Massed",2,2,"F",6.232876712,"Hispanic or Latino",NA,"no","associates","test",2,"picture8.jpg","picture5.jpg",NA,NA,"word5.aiff","picture5.jpg","picture8.jpg","left",0,6,8,10
+"p789","kids","Exp2","Massed",2,2,"F",6.232876712,"Hispanic or Latino",NA,"no","associates","test",3,"picture2.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture4.jpg","right",1,4,5,7
+"p789","kids","Exp2","Massed",2,2,"F",6.232876712,"Hispanic or Latino",NA,"no","associates","test",4,"picture6.jpg","picture7.jpg",NA,NA,"word6.aiff","picture6.jpg","picture7.jpg","right",0,7,9,11
+"p789","kids","Exp2","Massed",2,2,"F",6.232876712,"Hispanic or Latino",NA,"no","associates","test",5,"picture6.jpg","picture8.jpg",NA,NA,"word8.aiff","picture8.jpg","picture8.jpg","right",1,8,9,12
+"p789","kids","Exp2","Massed",2,2,"F",6.232876712,"Hispanic or Latino",NA,"no","associates","test",6,"picture3.jpg","picture1.jpg",NA,NA,"word3.aiff","picture3.jpg","picture3.jpg","left",1,2,3,6
+"p789","kids","Exp2","Massed",2,2,"F",6.232876712,"Hispanic or Latino",NA,"no","associates","test",7,"picture2.jpg","picture3.jpg",NA,NA,"word2.aiff","picture2.jpg","picture2.jpg","left",1,1,2,4
+"p789","kids","Exp2","Massed",2,2,"F",6.232876712,"Hispanic or Latino",NA,"no","associates","test",8,"picture4.jpg","picture1.jpg",NA,NA,"word1.aiff","picture1.jpg","picture1.jpg","right",1,1,3,5
+"p792","kids","Exp2","Massed",2,1,"M",5.246575342,"Multi",NA,"no","highschool","test",1,"picture8.jpg","picture5.jpg",NA,NA,"word5.aiff","picture5.jpg","picture8.jpg","left",0,6,8,10
+"p792","kids","Exp2","Massed",2,1,"M",5.246575342,"Multi",NA,"no","highschool","test",2,"picture3.jpg","picture1.jpg",NA,NA,"word3.aiff","picture3.jpg","picture3.jpg","left",1,2,3,6
+"p792","kids","Exp2","Massed",2,1,"M",5.246575342,"Multi",NA,"no","highschool","test",3,"picture2.jpg","picture3.jpg",NA,NA,"word2.aiff","picture2.jpg","picture2.jpg","left",1,1,2,4
+"p792","kids","Exp2","Massed",2,1,"M",5.246575342,"Multi",NA,"no","highschool","test",4,"picture7.jpg","picture5.jpg",NA,NA,"word7.aiff","picture7.jpg","picture7.jpg","left",1,10,11,12
+"p792","kids","Exp2","Massed",2,1,"M",5.246575342,"Multi",NA,"no","highschool","test",5,"picture6.jpg","picture8.jpg",NA,NA,"word8.aiff","picture8.jpg","picture6.jpg","left",0,8,9,12
+"p792","kids","Exp2","Massed",2,1,"M",5.246575342,"Multi",NA,"no","highschool","test",6,"picture2.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture2.jpg","left",0,4,5,7
+"p792","kids","Exp2","Massed",2,1,"M",5.246575342,"Multi",NA,"no","highschool","test",7,"picture6.jpg","picture7.jpg",NA,NA,"word6.aiff","picture6.jpg","picture7.jpg","right",0,7,9,11
+"p792","kids","Exp2","Massed",2,1,"M",5.246575342,"Multi",NA,"no","highschool","test",8,"picture4.jpg","picture1.jpg",NA,NA,"word1.aiff","picture1.jpg","picture4.jpg","left",0,1,3,5
+"p793","kids","Exp2","Massed",2,2,"F",5.410958904,"Hispanic or Latino",NA,"yes","highschool","test",1,"picture8.jpg","picture5.jpg",NA,NA,"word5.aiff","picture5.jpg","picture5.jpg","right",1,6,8,10
+"p793","kids","Exp2","Massed",2,2,"F",5.410958904,"Hispanic or Latino",NA,"yes","highschool","test",2,"picture3.jpg","picture1.jpg",NA,NA,"word3.aiff","picture3.jpg","picture3.jpg","left",1,2,3,6
+"p793","kids","Exp2","Massed",2,2,"F",5.410958904,"Hispanic or Latino",NA,"yes","highschool","test",3,"picture2.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture4.jpg","right",1,4,5,7
+"p793","kids","Exp2","Massed",2,2,"F",5.410958904,"Hispanic or Latino",NA,"yes","highschool","test",4,"picture7.jpg","picture5.jpg",NA,NA,"word7.aiff","picture7.jpg","picture5.jpg","right",0,10,11,12
+"p793","kids","Exp2","Massed",2,2,"F",5.410958904,"Hispanic or Latino",NA,"yes","highschool","test",5,"picture4.jpg","picture1.jpg",NA,NA,"word1.aiff","picture1.jpg","picture1.jpg","right",1,1,3,5
+"p793","kids","Exp2","Massed",2,2,"F",5.410958904,"Hispanic or Latino",NA,"yes","highschool","test",6,"picture2.jpg","picture3.jpg",NA,NA,"word2.aiff","picture2.jpg","picture2.jpg","left",1,1,2,4
+"p793","kids","Exp2","Massed",2,2,"F",5.410958904,"Hispanic or Latino",NA,"yes","highschool","test",7,"picture6.jpg","picture8.jpg",NA,NA,"word8.aiff","picture8.jpg","picture8.jpg","right",1,8,9,12
+"p793","kids","Exp2","Massed",2,2,"F",5.410958904,"Hispanic or Latino",NA,"yes","highschool","test",8,"picture6.jpg","picture7.jpg",NA,NA,"word6.aiff","picture6.jpg","picture7.jpg","right",0,7,9,11
+"p796","kids","Exp2","Massed",2,2,"M",4.405479452,"White",NA,"no","bachelors","test",1,"picture8.jpg","picture5.jpg",NA,NA,"word5.aiff","picture5.jpg","picture8.jpg","left",0,6,8,10
+"p796","kids","Exp2","Massed",2,2,"M",4.405479452,"White",NA,"no","bachelors","test",2,"picture6.jpg","picture8.jpg",NA,NA,"word8.aiff","picture8.jpg","picture6.jpg","left",0,8,9,12
+"p796","kids","Exp2","Massed",2,2,"M",4.405479452,"White",NA,"no","bachelors","test",3,"picture4.jpg","picture1.jpg",NA,NA,"word1.aiff","picture1.jpg","picture4.jpg","left",0,1,3,5
+"p796","kids","Exp2","Massed",2,2,"M",4.405479452,"White",NA,"no","bachelors","test",4,"picture2.jpg","picture3.jpg",NA,NA,"word2.aiff","picture2.jpg","picture2.jpg","left",1,1,2,4
+"p796","kids","Exp2","Massed",2,2,"M",4.405479452,"White",NA,"no","bachelors","test",5,"picture2.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture2.jpg","left",0,4,5,7
+"p796","kids","Exp2","Massed",2,2,"M",4.405479452,"White",NA,"no","bachelors","test",6,"picture3.jpg","picture1.jpg",NA,NA,"word3.aiff","picture3.jpg","picture3.jpg","left",1,2,3,6
+"p796","kids","Exp2","Massed",2,2,"M",4.405479452,"White",NA,"no","bachelors","test",7,"picture7.jpg","picture5.jpg",NA,NA,"word7.aiff","picture7.jpg","picture7.jpg","left",1,10,11,12
+"p796","kids","Exp2","Massed",2,2,"M",4.405479452,"White",NA,"no","bachelors","test",8,"picture6.jpg","picture7.jpg",NA,NA,"word6.aiff","picture6.jpg","picture6.jpg","left",1,7,9,11
+"p797","kids","Exp2","Massed",2,2,"F",4.197260274,"Multi",NA,"no","bachelors","test",1,"picture2.jpg","picture4.jpg",NA,NA,"word4.aiff","picture4.jpg","picture2.jpg","left",0,4,5,7
+"p797","kids","Exp2","Massed",2,2,"F",4.197260274,"Multi",NA,"no","bachelors","test",2,"picture7.jpg","picture5.jpg",NA,NA,"word7.aiff","picture7.jpg","picture5.jpg","right",0,10,11,12
+"p797","kids","Exp2","Massed",2,2,"F",4.197260274,"Multi",NA,"no","bachelors","test",3,"picture8.jpg","picture5.jpg",NA,NA,"word5.aiff","picture5.jpg","picture5.jpg","right",1,6,8,10
+"p797","kids","Exp2","Massed",2,2,"F",4.197260274,"Multi",NA,"no","bachelors","test",4,"picture2.jpg","picture3.jpg",NA,NA,"word2.aiff","picture2.jpg","picture2.jpg","left",1,1,2,4
+"p797","kids","Exp2","Massed",2,2,"F",4.197260274,"Multi",NA,"no","bachelors","test",5,"picture6.jpg","picture8.jpg",NA,NA,"word8.aiff","picture8.jpg","picture6.jpg","left",0,8,9,12
+"p797","kids","Exp2","Massed",2,2,"F",4.197260274,"Multi",NA,"no","bachelors","test",6,"picture3.jpg","picture1.jpg",NA,NA,"word3.aiff","picture3.jpg","picture1.jpg","right",0,2,3,6
+"p797","kids","Exp2","Massed",2,2,"F",4.197260274,"Multi",NA,"no","bachelors","test",7,"picture4.jpg","picture1.jpg",NA,NA,"word1.aiff","picture1.jpg","picture4.jpg","left",0,1,3,5
+"p797","kids","Exp2","Massed",2,2,"F",4.197260274,"Multi",NA,"no","bachelors","test",8,"picture6.jpg","picture7.jpg",NA,NA,"word6.aiff","picture6.jpg","picture6.jpg","left",1,7,9,11

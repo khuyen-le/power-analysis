@@ -1,0 +1,566 @@
+---
+title: "Power Analysis Workshop"
+author: "Khuyen Le"
+output:
+  html_document:
+    code_folding: hide
+    toc: true
+    toc_depth: 3
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(simr)
+library(faux)
+library(plyr)
+library(broom)
+library(car)
+library(here)
+
+set.seed(23)
+```
+
+## What is power? 
+Power is the probability of detecting a difference if the difference does exist.
+
+In NHST, 'detecting a difference' = p < alpha.
+
+### A regression example: How power changes with sample size
+
+Toy data: number of vocalizations per day for cats vs. dogs. 
+
+Let's pretend that we know what the underlying estimates are. Cats meow on average 20 times per day (sd = 10). Dogs bark on average 25 times per day (sd = 10).
+
+How many pet owners (equal n for cats and dogs) do we need to sample to detect this difference between cats and dogs? 
+
+We can solve this through simulation! Let's simulate a dataset with the above estimate, and (because we know that the difference exists), count how many times our model report p < .05!
+
+Imagine if we sample 10 dog and 10 cat owners. 
+```{r}
+#first create the 'pet' dataframe 
+pets <- tibble(
+  # 10 row with 'dog' and 10 with 'cat'
+  pet = c(rep("dog", 10), rep("cat", 10)), 
+  #now sample from the corresponding distributions for dogs vs. cats
+  n_vocal = c(rnorm(10, mean=25, sd=10), rnorm(10, mean=20, sd=10))
+) |> 
+  #clean up -- we only want positive integers for n_vocal (doesn't make sense otherwise)
+  mutate(n_vocal = round(abs(n_vocal)))
+
+pets
+```
+
+Now let's see what the regression say! Exciting :) 
+
+```{r}
+lm.pet <- lm(n_vocal ~ pet, data = pets)
+summary(lm.pet)
+
+#pull out p-value for the 'pet' term
+tidy(lm.pet) %>% filter(term == "petdog") %>% pull(p.value)
+```
+
+But that was for 1 experiment, though. In order to calculate power, we want to know how often we'll get this significant results if we keep running multiple expeirments. 
+
+```{r}
+# first let's package each 'experiment' into a function
+generate_pet_experiment <- function() {
+  #'collect' the data
+  pets <- tibble(
+    # 10 row with 'dog' and 10 with 'cat'
+    pet = c(rep("dog", 10), rep("cat", 10)), 
+    #now sample from the corresponding distributions for dogs vs. cats
+    n_vocal = c(rnorm(10, mean=25, sd=10), rnorm(10, mean=20, sd=10))
+  ) |> 
+    #clean up -- we only want positive integers for n_vocal (doesn't make sense otherwise)
+    mutate(n_vocal = round(abs(n_vocal)))
+  
+  #run the analysis
+  lm.pet <- lm(n_vocal ~ pet, data = pets)
+  summary(lm.pet)
+  
+  tidy(lm.pet) %>% filter(term == "petdog") %>% pull(p.value)
+}
+  
+#now let's repeat our experiment 1000 times! `rdply` from the package `plyr` is useful for this. It will always return the last evaluation you made.
+pet_expt_sim <- plyr::rdply(1000, data.frame(pval = generate_pet_experiment()), .id = 'expt')
+
+#nice! now we just need to find out how many times we get p < .05 --> this is our power!
+# get number of rows where pval < .05 and divide by total number of rows (1000)
+nrow(pet_expt_sim[pet_expt_sim$pval < .05, ]) / nrow(pet_expt_sim)
+```
+
+Ohh. That's pretty low power. We usually aim for a threshold of power = 0.80 with alpha = 0.05. 
+
+Let's do that again, this time sampling 20 owners for each pet instead of 10! 
+
+To calculate power, we pretend that we run multiple experiments, each sampling 20 dogs and 20 cat owners
+```{r}
+# first let's package each 'experiment' into a more general function. 
+# Now we can pass in the parameter `n_owners_per_pet` to decide 
+# how many pet owners we want to sample
+generate_pet_experiment_gen <- function(n_owners_per_pet) {
+  pets <- tibble(
+    # 10 row with 'dog' and 10 with 'cat'
+    pet = c(rep("dog", n_owners_per_pet), rep("cat", n_owners_per_pet)), 
+    #now sample from the corresponding distributions for dogs vs. cats
+    n_vocal = c(rnorm(n_owners_per_pet, mean=25, sd=10), rnorm(n_owners_per_pet, mean=20, sd=10))
+  ) |> 
+    #clean up -- we only want positive integers for n_vocal (doesn't make sense otherwise)
+    mutate(n_vocal = round(abs(n_vocal)))
+  
+  lm.pet <- lm(n_vocal ~ pet, data = pets)
+  summary(lm.pet)
+  
+  tidy(lm.pet) %>% filter(term == "petdog") %>% pull(p.value)
+}
+  
+#now let's repeat our experiment 1000 times! `rdply` from the package `plyr` is useful for this. It will always return the last evaluation you made.
+pet_expt_sim <- plyr::rdply(1000, 
+                            data.frame(pval = generate_pet_experiment_gen(n_owners_per_pet = 20)), 
+                            .id = 'expt')
+
+#nice! now we just need to find out how many times we get p < .05 --> this is our power!
+# get number of rows where pval < .05 and divide by total number of rows (1000)
+nrow(pet_expt_sim[pet_expt_sim$pval < .05, ]) / nrow(pet_expt_sim)
+```
+
+A little better! But still not at power = 0.80 yet. 
+
+Let's keep increasing our sample of pet owners at 10-owner interval, and track our power with each try. 
+
+```{r}
+n_owners_sim = seq(from = 30, to = 100, by = 10)
+
+#initialize an empty tibble first to store the power calculations
+pet_power_sim = NULL 
+for (n_owners in n_owners_sim) {
+  # print statement so we can keep track of simulation
+  print(paste('sampling with ', n_owners, ' owners per pet', sep=""))
+  pet_expt_sim <- plyr::rdply(1000, 
+                            data.frame(pval = generate_pet_experiment_gen(n_owners_per_pet = n_owners)), 
+                            .id = 'expt')
+  power <- nrow(pet_expt_sim[pet_expt_sim$pval < .05, ]) / nrow(pet_expt_sim)
+  current_power_sim = tibble(
+    n_owners = c(n_owners), 
+    power = c(power)
+  )
+  pet_power_sim <- bind_rows(pet_power_sim, current_power_sim)
+}
+
+pet_power_sim
+```
+
+Cool! So it looks like somewhere between 60-70 owners, we'll be able to reach power = .80
+
+We can also visualize this -- this is called a power curve. 
+
+```{r}
+ggplot(data = pet_power_sim, 
+       aes(x = n_owners, y = power)) + 
+  geom_line() + 
+  geom_point() +
+  geom_hline(yintercept = 0.8, linetype = 'dashed') + 
+  labs(x = "Number of owners per pet type sampled", 
+       y = "Power achieved through simulation")
+```
+
+### Need to do more complicated simulations? Use `faux`
+
+Toy data: Number of vocalizations for cats vs. dogs (between-subject), across different times of day (within-subject).^[from `faux` example vignette]
+
+`faux` allows us to specify between-subject factors and within-subject factors. 
+
+```{r power simulation...}
+#list between- and with-subject factors
+between <- list(pet = c("cat", "dog"))
+within <- list(time = c("morning", "noon", "afternoon", "night"))
+
+#initialize a dataframe with the corresponding means
+# where rows = within-subject factors, 
+# cols = between-subject factors
+# tibble has a different way of specifying rownames, so I'm sticking with data.frame for this one.
+mu <- data.frame(
+  cat    = c(5, 10, 13, 17),
+  dog    = c(10, 11, 16, 17),
+  row.names = within$time
+)
+
+# add factor labels for plotting
+# faux can simulate data and plot it at the same time! how cool
+vardesc <- c(pet = "Type of Pet",
+             time = "Time of Day")
+
+#let's simulate an experiment with 10 cats and 10 dogs. 
+pet_time <- sim_design(within, between, 
+                 #n = number of samples we want to sample
+                 n = 10, mu = mu, sd = 5,
+                 #r = correlations among the variables (e.g., r(cat-morning, cat-noon))
+                 #set to the same value, but you can also specify a correlation matrix
+                 r = .5, 
+                 #empirical specify that these are empirical, not population mean
+                 #this is because we are 'simulating' an experiment! 
+                 empirical = TRUE, vardesc = vardesc, plot = FALSE)
+```
+Cool! Let's run an analysis on that data. We want to see if there is an interaction effect between pet type and time of day, on number of vocalizations. 
+
+```{r}
+pet_time <- pet_time |>
+  #lm expects long form
+  pivot_longer(cols = -c(id, pet), names_to = "time") |> 
+  mutate(value = round(abs(value)))
+
+lm.pet_time <- lm(value ~ pet * time, data = pet_time)
+summary(lm.pet_time)
+#getting the overall pet:time interaction effect with the `car` package
+anova.pet_time <- Anova(lm.pet_time, type = 3)
+tidy(anova.pet_time) %>% filter(term == "pet:time") %>% pull(p.value) 
+```
+
+Now we can do the same process: 
+1. create a function that represent an experiment
+2. define a series of sample sizes that we want to try (e.g., n = 20, 30, ...)
+3. run the 'experiment' function 1000 times for different sample sizes, and calculate how many times we get p < .05 for each sample size.
+
+```{r}
+#first create a function that represent an experiment
+generate_pet_time_sim <- function(n_pets) {
+  pet_time <- sim_design(within, between, 
+                 #n = number of samples we want to sample
+                 n = n_pets, mu = mu, sd = 5,
+                 #r = correlations among the variables (e.g., r(cat-morning, cat-noon))
+                 #set to the same value, but you can also specify a correlation matrix
+                 r = .5, 
+                 #empirical specify that these are empirical, not population mean
+                 #this is because we are 'simulating' an experiment! 
+                 #let's turn off the 'plot' parameter so that we don't get inundated with plots...
+                 empirical = TRUE, vardesc = vardesc, plot = FALSE)
+  
+  pet_time <- pet_time |>
+    pivot_longer(cols = -c(id, pet), names_to = "time") |> 
+    mutate(value = round(abs(value)))
+
+  #analysis part
+  lm.pet_time <- lm(value ~ pet * time, data = pet_time)
+  #getting the overall pet:time interaction effect with the `car` package
+  anova.pet_time <- Anova(lm.pet_time, type = 3)
+  tidy(anova.pet_time) %>% filter(term == "pet:time") %>% pull(p.value) 
+}
+
+#define some sample sizes that we want to look at.
+n_pets_sim = seq(from = 20, to = 100, by = 10)
+
+#run the simulation!
+#initialize an empty tibble first to store the power calculations
+pet_time_power_sim = NULL 
+for (n_pets in n_pets_sim) {
+  # print statement so we can keep track of simulation
+  print(paste('sampling with ', n_pets, ' pets per category', sep=""))
+
+  pet_time_expt_sim <- plyr::rdply(1000, 
+                            data.frame(pval = generate_pet_time_sim(n_pets = n_pets)), 
+                            .id = 'expt')
+  power <- nrow(pet_time_expt_sim[pet_time_expt_sim$pval < .05, ]) / nrow(pet_time_expt_sim)
+  current_power_sim = tibble(
+    n_pets = c(n_pets), 
+    power = c(power)
+  )
+  pet_time_power_sim <- bind_rows(pet_time_power_sim, current_power_sim)
+}
+
+pet_time_power_sim
+```
+
+```{r}
+ggplot(data = pet_time_power_sim, 
+       aes(x = n_pets, y = power)) + 
+  geom_line() + 
+  geom_point() +
+  geom_hline(yintercept = 0.8, linetype = 'dashed') + 
+  labs(x = "Number of owners per pet type sampled", 
+       y = "Power achieved through simulation")
+```
+
+You can run a power analysis on any study, using this simulation approach! I highly recommend this ManyBabies workshop for more complex models: https://4ccoxau.github.io/PowerAnalysisWorkshopManyBabies/
+
+## Using `simr` to do power analysis from existing data
+
+`simr`: package that provides multiple wrapping functions that simulate data and calculate power. I find it  useful for linear mixed-effects models that are more difficult to simulate yourself due to the number of estimates that need to be specified. 
+
+It is especially useful if you already have pilot data, or if you have access to data from a study that closely resembles your own study. For (generalized) linear mixed-effects models, this is because besides the fixed effects (e.g., the difference between conditions that we want to observe), you also have to specify the residuals, and variance and correlation components between the random-effects terms. These information are not usually reported in papers (unfortunately), so what we'll do is to fit the models we want to test with existing data, and extract the necessary random-effects terms to use for our power analysis.
+
+The dataset we will be using is a subset of the data from Benitez et al., 2020^[Benitez, V. L., Zettersten, M., & Wojcik, E. (2020). The temporal structure of naming events differentially affects children’s and adults’ cross-situational word learning. Journal of Experimental Child Psychology, 200, 104961. Data was accessed through https://osf.io/g2md4/].
+
+In this study, children between 4-7yos learned words under different presentation conditions. On each trial, children made a 2AFC between 2 possible referents of a word, so the DV is coded as a binary variable (correct = 1, incorrect = 0). Previous studies using similar designs have found that there was no effect of age, so we only add age as a fixed effect to control for it. What we are interested in is whether there is a condition effect.
+
+In other words, we want to calculate power for this model: glmer(accuracy ~ age + condition + (1|id) + (1|correct), data, family=binomial). And we only want to power on the main effect of condition.
+
+### Reading in data
+
+Imagine we collected some pilot data from 10 participants:
+
+```{r, message=F, warning=F}
+data <- read.csv(here("data_sample.csv")) 
+```
+
+Important columns for our analysis:  
+Fixed effects: 
+`condition`: between-subject variable with 2 levels: Unstructured / Massed. This represents how the stimuli are presented to the participant. 
+`age`: age in years (continuous)
+
+Random effects:
+`id`: id of each participant. We'll set a random intercept for this variable. 
+`correct`: the target object that needs to be learned for each trial. We'll set a random intercept for this variable. 
+
+Not an effect modeled, but will be used for simulation
+`trial_index`: each participant sees 8 trials, indexed from 1-8
+
+### Using simr
+
+There are 2 ways of using `simr`. You can fit the model on the existing data, and `extend` the model (including the estimates) to include more samples. You can also create a model with the formula you want to test, and specify the necessary estimates. 
+
+Maybe none of that makes sense right now, so let's just do the do :) 
+
+### 1st approach: fit the model with the effect you want to power on to the existing data, then use `extend` to calculate power for different sample sizes. 
+
+**Note:** This approach keeps the exact same data that you already have! Use 2nd approach if you want to generate new data from existing structure. 
+
+Fit the model: 
+
+```{r}
+m1 <- glmer(accuracy ~ age + condition + (1|id) + (1|correct), data=data, family=binomial)
+summary(m1)
+```
+`simr` provides an in-built function `extend` to both simulate data AND run the model again on the simulated data. 
+
+```{r}
+#along specifies a variable that we want to increase the number of levels. 
+#here we want to increase number of participants to 11
+#these simulations are duplicated from the initial model's data. I.e., the 11th participant (a simulated participant) will look exactly like the data of the 1st. 
+m1_sim_between <- extend(m1, along="id", n=11) #set number of subjects to 11 for easy observation
+m1_sim_between_data <- getData(m1_sim_between) #really useful function to see what the simulated data looks like
+
+m1_sim_within <- extend(m1, within="condition+trial_index", n=10) #increase number of subjects to n=10 for EACH condition (with all the trial_index for each subject)
+m1_sim_within_data <- getData(m1_sim_within)
+```
+
+Note that this approach doesn't get us a random sample of the underlying distribution, but maintains the relationship between different variables. 
+
+We'll continue with the data that was extended 'within`, to make sure that we always have the same number of participants per condition. Right now, m1_sim_within has 10 subjects per condition (total n=20).
+
+`simr` provides a function, `powerSim`, that lets us repeat the analysis for multiple simulations, and then calculate power. Under the hood, this is the same as running multiple experiments (with n=20 each) many times, then calculating how many times we get a significant effect of condition. That proportion would be our power!
+
+```{r}
+#nsim = 10 to save some time. The default is nsim = 1000!
+power <- powerSim(m1_sim_within,test=fcompare(accuracy~age),nsim=5,progress=TRUE)
+power
+
+#useful later: 
+#we can also get power by accessing all the pvals calculated, then calculating the proportion of p-values that are < .05
+length(power$pval[power$pval < .05]) / length(power$pval)
+#or
+mean(power$pval < .05)
+```
+
+**Note:** "result might be an observed power calculation" -- this warning is because we didn't change the fixed effect at all and just used the effect from the pilot data! `simr` is warning us that we did not making an *a priori* decision on what effect we want to expect. We'll deal with this later!
+
+The last part is just repeating the simulation with `powerSim` for multiple sample sizes, and seeing how the power change!
+
+```{r}
+#we'll try this with n=20, 40, 60 participants per condition
+n_per_condition_sim <- c(20, 40, 60)
+
+#initialize an empty tibble first to store the power calculations
+power_simulation_m1 = NULL
+
+for (n_per_condition in n_per_condition_sim) { 
+    m1_sim_within <- extend(m1, within="condition+trial_index", n=n_per_condition)
+    #again, setting nsim = 5 to save us some time
+    power <- powerSim(m1_sim_within,test=fcompare(accuracy~age),nsim=5,progress=TRUE)
+    sim_power <- mean(power$pval<0.05)
+    #create a temporary dataframe that store the sample size, number of simulations, and power achieved
+    temp <- data.frame(sample_size_per_condition=n_per_condition, 
+                       total_sample_size = n_per_condition * 2, 
+                       nsim=5, power=sim_power)
+    power_simulation_m1 <- bind_rows(power_simulation_m1,temp)
+}
+
+power_simulation_m1
+#it's useful to write your power simulation into a file, because of how long it takes sometimes...
+write.csv(power_simulation_m1, "power_simulation_m1.csv", row.names = F)
+
+ggplot(data = power_simulation_m1, 
+       aes(x = sample_size_per_condition, y = power)) + 
+  geom_line() + 
+  geom_point() + 
+  geom_hline(yintercept = 0.8, linetype = "dashed") + 
+  labs(x = "Sample size per condition", 
+       y = "Power achieved")
+```
+
+`simr` provides a function `powerCurve` that calculates power and plot it for you!
+
+```{r}
+#the model that you start with should already be extended
+# because of our power analysis above, we already have m1_sim_within at n=60 participants per condition.
+#calculates power across n=20, 40, 60 per condition
+#nsim = 5 to save time, change this to 1000 at least
+powerCurve_m1 <- powerCurve(m1_sim_within, test=fcompare(accuracy~age), within="condition+trial_index", breaks=c(20,40,60), nsim = 5, progress = TRUE)
+plot(powerCurve_m1)
+
+#specifying breaks is recommended
+powerCurve_m1 <- powerCurve(m1_sim_within, test=fcompare(accuracy~age), within="condition+trial_index", nsim = 5, progress = TRUE)
+plot(powerCurve_m1)
+```
+
+#### Changing effect size
+
+Sometimes we want to do a power analysis across multiple effect sizes (sometimes called a sensitivity analysis). In the case of regression models, usually this is the 'slope' estimate.
+
+```{r}
+#this tells us what fixed effects we can changes
+fixef(m1)
+
+#you can change the fixed effect of a model by indexing into that fixed effect: 
+fixef(m1)['conditionUnstructured'] <- 0.5
+
+fixef(m1)
+```
+
+Because our effect of interest is the effect of 'condition', let's define a series of effect sizes (or slope estimates) we want to do our search over. 
+```{r}
+fixed_effects_m1 <- c(0.20, 0.40, 0.60)
+```
+
+Now we can extend that for loop above to also search across the fixed effects!
+```{r}
+#we'll try this with n=20, 40, 60 participants per condition
+n_per_condition_sim <- c(20, 40, 60)
+
+#initialize an empty tibble first to store the power calculations
+power_simulation_m1_fixed_efs = NULL
+fixed_effects_m1 <- c(0.20, 0.40, 0.60)
+
+for (n_per_condition in n_per_condition_sim) { 
+  print(paste("Power analysis for ", n_per_condition, " participants per condition..."))
+  for (fixed_ef in fixed_effects_m1) {
+    print(paste("Looking at effect size of ", fixed_ef))
+    #assign 
+    fixef(m1)['conditionUnstructured'] <- fixed_ef
+    m1_sim_within <- extend(m1, within="condition+trial_index", n=n_per_condition)
+    #again, setting nsim = 5 to save us some time
+    power <- powerSim(m1_sim_within,test=fcompare(accuracy~age),nsim=5,progress=TRUE)
+    sim_power <- mean(power$pval<0.05)
+    #create a temporary dataframe that store the sample size, number of simulations, and power achieved
+    temp <- data.frame(sample_size_per_condition=n_per_condition, 
+                       total_sample_size = n_per_condition * 2, 
+                       fixed_ef = fixed_ef,
+                       nsim=5, power=sim_power)
+    power_simulation_m1_fixed_efs <- bind_rows(power_simulation_m1_fixed_efs,temp)
+  }
+}
+
+power_simulation_m1_fixed_efs
+
+ggplot(data = power_simulation_m1_fixed_efs, 
+       aes(x = sample_size_per_condition, y = power)) + 
+  geom_line() + 
+  geom_point() + 
+  geom_hline(yintercept = 0.8, linetype = "dashed") + 
+  facet_grid(~fixed_ef) +
+  labs(x = "Sample size per condition", 
+       y = "Power achieved")
+```
+
+### 2nd approach: create the model you want, then enter the estimates you want into that model.
+
+If I run another experiment with the same independent variables (age, condition), but collect a different independent variable (e.g., instead of testing whether kids can match words to correct object choice (2AFC), I want to test whether they can correctly recognize if a word-object pair has been taught to them or not).
+
+This is also useful if I want to generate a new data set from my pilot data set (as opposed to repeating the existing data points multiple times), but maintain similar structures between the variables.
+
+First I'll fit the model of the old experiment, then I'll pull out the important pieces needed to specify a new model. 
+
+```{r, warning=F, message =F}
+m1 <- glmer(accuracy ~ age + condition + (1|id)+(1|correct),data=data, family=binomial)
+summary(m1)
+
+#important estimates that is needed to specify a new model
+rand <- VarCorr(m1) #Variance and correlation components
+fixed <- fixef(m1) #fixed effects
+sigma <- sd(resid(m1)) # model residuals. Need to port into the new model as SD of residuals
+```
+I'm going to assume that the model for the new experiment (predicting recognition accuracy from age and condition) has a very similar structure to the old model. 
+
+```{r}
+#create a new data frame with only the important variables
+data_new <- data %>%
+  select(age, condition, id, correct, trial_index)
+
+m2 <- makeGlmer(recognition_acc ~ age + condition + (1|id) + (1|correct), 
+                   fixef=fixed, VarCorr=rand, 
+                   #sigma=sigma, #sigma is only used for lmer, not glmer
+                   data=data_new, family=binomial)
+summary(m2)
+
+#Note how it fills out the `recognition_acc` for you! This is based on the existing data structure.
+data_m2 <- getData(m2)
+```
+
+Then we can use the same process to investigate this new model:
+
+```{r}
+#we can find the power of the current model
+power <- powerSim(m2, nsim=5, test = fcompare(recognition_acc~age))
+power
+
+#we can similarly extend the new model
+m2_sim_within_recognition <- extend(m2, within="condition+trial_index", n=20)
+```
+
+Now let's do a power analysis for the new model! We'll use the same grid search method we did, where we look at different sample sizes and different effect sizes. 
+```{r}
+#we'll try this with n=20, 40, 60 participants per condition
+n_per_condition_sim <- c(20, 40, 60)
+
+#initialize an empty tibble first to store the power calculations
+power_simulation_m2_fixed_efs = NULL
+fixed_effects_m2 <- c(0.20, 0.40, 0.60)
+
+for (n_per_condition in n_per_condition_sim) { 
+  print(paste("Power analysis for ", n_per_condition, " participants per condition..."))
+  for (fixed_ef in fixed_effects_m2) {
+    print(paste("Looking at effect size of ", fixed_ef))
+    #assign 
+    fixef(m2)['conditionUnstructured'] <- fixed_ef
+    m2_sim_within_recognition <- extend(m2, within="condition+trial_index", n=n_per_condition)
+    #again, setting nsim = 10 to save us some time
+    power <- powerSim(m2_sim_within_recognition,test=fcompare(recognition_acc~age),nsim=10,progress=TRUE)
+    sim_power <- mean(power$pval<0.05)
+    #create a temporary dataframe that store the sample size, number of simulations, and power achieved
+    temp <- data.frame(sample_size_per_condition=n_per_condition, 
+                       total_sample_size = n_per_condition * 2, 
+                       fixed_ef = fixed_ef,
+                       nsim=5, power=sim_power)
+    power_simulation_m2_fixed_efs <- bind_rows(power_simulation_m2_fixed_efs,temp)
+  }
+}
+
+power_simulation_m2_fixed_efs
+
+ggplot(data = power_simulation_m2_fixed_efs, 
+       aes(x = sample_size_per_condition, y = power)) + 
+  geom_line() + 
+  geom_point() + 
+  geom_hline(yintercept = 0.8, linetype = "dashed") + 
+  facet_grid(~fixed_ef) +
+  labs(x = "Sample size per condition", 
+       y = "Power achieved")
+```
+We can even draw a power curve!
+```{r}
+p_curve_recognition <- powerCurve(m2_sim_within_recognition, nsim = 10, test=fcompare(recognition_acc~age), breaks=c(20,40,60), within="condition+trial_index") 
+plot(p_curve_recognition)
+```
+
+
