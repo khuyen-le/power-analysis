@@ -1,10 +1,15 @@
 # Power Analysis
 
 More resources:
+
 https://4ccoxau.github.io/PowerAnalysisWorkshopManyBabies/
+
 https://humburg.github.io/Power-Analysis/simr_power_analysis.html
+
 https://library.virginia.edu/data/articles/power-and-sample-size-analysis-using-simulation
+
 https://glennwilliams.me/r4psych/simulation-and-calculating-power.html
+
 https://debruine.github.io/faux/
 
 
