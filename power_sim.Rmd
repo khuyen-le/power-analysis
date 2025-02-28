@@ -128,7 +128,7 @@ nrow(pet_expt_sim[pet_expt_sim$pval < .05, ]) / nrow(pet_expt_sim)
 
 A little better! But still not at power = 0.80 yet. 
 
-Let's keep increasing our sample of pet owners at 10-owner interval, and track our power with each try. 
+Let's keep increasing our sample of pet owners at 10-owner intervals, and track our power with each try. 
 
 ```{r}
 n_owners_sim = seq(from = 30, to = 100, by = 10)
@@ -286,7 +286,7 @@ You can run a power analysis on any study, using this simulation approach! I hig
 
 ## Using `simr` to do power analysis from existing data
 
-`simr`: package that provides multiple wrapping functions that simulate data and calculate power. I find it  useful for linear mixed-effects models that are more difficult to simulate yourself due to the number of estimates that need to be specified. 
+`simr`: package that provides multiple wrapping functions that simulate data and calculate power. I find it useful for linear mixed-effects models that are more difficult to simulate yourself due to the number of estimates that need to be specified. 
 
 It is especially useful if you already have pilot data, or if you have access to data from a study that closely resembles your own study. For (generalized) linear mixed-effects models, this is because besides the fixed effects (e.g., the difference between conditions that we want to observe), you also have to specify the residuals, and variance and correlation components between the random-effects terms. These information are not usually reported in papers (unfortunately), so what we'll do is to fit the models we want to test with existing data, and extract the necessary random-effects terms to use for our power analysis.
 
@@ -347,9 +347,9 @@ m1_sim_within_data <- getData(m1_sim_within)
 
 Note that this approach doesn't get us a random sample of the underlying distribution, but maintains the relationship between different variables. 
 
-We'll continue with the data that was extended 'within`, to make sure that we always have the same number of participants per condition. Right now, m1_sim_within has 10 subjects per condition (total n=20).
+We'll continue with the data that was extended `within`, to make sure that we always have the same number of participants per condition. Right now, `m1_sim_within` has 10 subjects per condition (total n=20).
 
-`simr` provides a function, `powerSim`, that lets us repeat the analysis for multiple simulations, and then calculate power. Under the hood, this is the same as running multiple experiments (with n=20 each) many times, then calculating how many times we get a significant effect of condition. That proportion would be our power!
+`simr` provides a function, `powerSim`, that lets us repeat the analysis for multiple simulations, and then calculate power. Under the hood, this is the same as running multiple experiments (with n=20 per experiment) many times, then calculating how many times we get a significant effect of condition. That proportion would be our power!
 
 ```{r}
 #nsim = 10 to save some time. The default is nsim = 1000!
@@ -363,7 +363,7 @@ length(power$pval[power$pval < .05]) / length(power$pval)
 mean(power$pval < .05)
 ```
 
-**Note:** "result might be an observed power calculation" -- this warning is because we didn't change the fixed effect at all and just used the effect from the pilot data! `simr` is warning us that we did not making an *a priori* decision on what effect we want to expect. We'll deal with this later!
+**Note:** "This appears to be an observed power calculation" -- this warning is because we didn't change the fixed effect at all and just used the effect from the pilot data! `simr` is warning us that we did not make an *a priori* decision on what effect we want to expect. We'll deal with this later!
 
 The last part is just repeating the simulation with `powerSim` for multiple sample sizes, and seeing how the power change!
 
@@ -419,7 +419,7 @@ plot(powerCurve_m1)
 Sometimes we want to do a power analysis across multiple effect sizes (sometimes called a sensitivity analysis). In the case of regression models, usually this is the 'slope' estimate.
 
 ```{r}
-#this tells us what fixed effects we can changes
+#this tells us what fixed effects we can change
 fixef(m1)
 
 #you can change the fixed effect of a model by indexing into that fixed effect: 
@@ -475,7 +475,7 @@ ggplot(data = power_simulation_m1_fixed_efs,
 
 ### 2nd approach: create the model you want, then enter the estimates you want into that model.
 
-If I run another experiment with the same independent variables (age, condition), but collect a different independent variable (e.g., instead of testing whether kids can match words to correct object choice (2AFC), I want to test whether they can correctly recognize if a word-object pair has been taught to them or not).
+If I run another experiment with the same independent variables (age, condition), but collect a different dependent variable (e.g., instead of testing whether kids can match words to correct object choice (2AFC), I want to test whether they can correctly recognize if a word-object pair has been taught to them or not).
 
 This is also useful if I want to generate a new data set from my pilot data set (as opposed to repeating the existing data points multiple times), but maintain similar structures between the variables.
 
